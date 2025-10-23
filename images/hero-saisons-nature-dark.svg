@@ -1,0 +1,30 @@
+<!-- images/hero-saisons-nature-dark.svg -->
+<svg width="2400" height="620" viewBox="0 0 2400 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bandeau En pleine nature (sombre)">
+  <defs>
+    <linearGradient id="sky-nature-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#2b2f31"/>
+      <stop offset="55%" stop-color="#2b2f31"/>
+      <stop offset="100%" stop-color="#3a4143"/>
+    </linearGradient>
+    <linearGradient id="hill1-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#7e8f86" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#A3A380" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="hill2-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#A3A380" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#6b7a73" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="2400" height="620" fill="url(#sky-nature-d)"/>
+  <path d="M0,360 C300,390 600,350 900,380 C1200,410 1500,360 1800,390 C2050,405 2250,395 2400,405 L2400,620 L0,620 Z" fill="url(#hill1-d)"/>
+  <path d="M0,460 C350,440 700,470 1050,450 C1400,430 1750,480 2100,460 C2250,450 2325,465 2400,475 L2400,620 L0,620 Z" fill="url(#hill2-d)"/>
+
+  <g opacity="0.28">
+    <circle cx="260" cy="120" r="2.2" fill="#ffffff"/>
+    <circle cx="760" cy="100" r="2.4" fill="#ffffff"/>
+    <circle cx="1260" cy="140" r="2.2" fill="#ffffff"/>
+    <circle cx="1780" cy="90"  r="2.6" fill="#ffffff"/>
+    <circle cx="2140" cy="150" r="2.3" fill="#ffffff"/>
+  </g>
+</svg>

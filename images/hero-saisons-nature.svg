@@ -1,0 +1,45 @@
+<!-- images/hero-saisons-nature.svg -->
+<svg width="2400" height="620" viewBox="0 0 2400 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bandeau En pleine nature (clair)">
+  <defs>
+    <linearGradient id="sky-nature" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#FFE5EC"/>
+      <stop offset="55%" stop-color="#FFE5EC"/>
+      <stop offset="100%" stop-color="#F7E1D7"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#B0C4B1" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#A3A380" stop-opacity="0.65"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#A3A380" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#7E8F86" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="soft-nature" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+  </defs>
+
+  <rect width="2400" height="620" fill="url(#sky-nature)"/>
+
+  <!-- Collines fluides -->
+  <path d="M0,360 C300,390 600,350 900,380 C1200,410 1500,360 1800,390 C2050,405 2250,395 2400,405 L2400,620 L0,620 Z" fill="url(#hill1)"/>
+  <path d="M0,460 C350,440 700,470 1050,450 C1400,430 1750,480 2100,460 C2250,450 2325,465 2400,475 L2400,620 L0,620 Z" fill="url(#hill2)"/>
+
+  <!-- Feuilles stylisées -->
+  <g opacity="0.7" filter="url(#soft-nature)">
+    <path d="M420,300 C450,260 500,255 540,300 C500,340 450,345 420,300 Z" fill="#B0C4B1"/>
+    <path d="M820,280 C850,240 900,245 940,290 C900,330 850,335 820,280 Z" fill="#A3A380"/>
+    <path d="M1320,300 C1350,260 1400,255 1440,300 C1400,340 1350,345 1320,300 Z" fill="#7E8F86"/>
+    <path d="M1780,270 C1810,235 1860,240 1895,285 C1860,322 1810,327 1780,270 Z" fill="#A3A380"/>
+  </g>
+
+  <!-- Micro-cœurs/étoiles -->
+  <g opacity="0.18">
+    <circle cx="260" cy="120" r="2.2" fill="#FFFFFF"/>
+    <circle cx="760" cy="100" r="2.4" fill="#FFFFFF"/>
+    <circle cx="1260" cy="140" r="2.2" fill="#FFFFFF"/>
+    <circle cx="1780" cy="90"  r="2.6" fill="#FFFFFF"/>
+    <circle cx="2140" cy="150" r="2.3" fill="#FFFFFF"/>
+  </g>
+</svg>
