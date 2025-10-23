@@ -1,0 +1,84 @@
+---
+title: "Black Feelings — Tome 1"
+description: "Victime de harcèlement scolaire au lycée, Amandine ne sera plus jamais la même."
+image: ../images/couvertures/black-feelings-1.jpg
+date: 2024-09-01
+categories: [Romance contemporaine, Harcèlement, Drame]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+
+💞₊⊹₊⊹      ₊⊹₊⊹💞₊⊹
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Éditeur</strong> : Hugo Roman</li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 14 €</li>
+    <li><strong>Relié</strong> : 18 €</li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://www.amazon.fr/s?k=Mo+Gadarr+Black+Feelings" 
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Black Feelings sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-black-feelings1.html"
+     role="button"
+     aria-label="Lire un extrait de Black Feelings">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/black-feelings-tome-1.jpg" alt="Couverture — Black Feelings — Tome 1">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+Victime de harcèlement scolaire au lycée,
+Amandine ne sera plus jamais la même !
+Si Mandy a voulu devenir professeure de
+français, c&#39;est certes par passion pour
+l&#39;enseignement, mais aussi et surtout, pour
+sensibiliser les jeunes au harcèlement scolaire.
+Elle-même victime de ce phénomène pendant
+ses années lycée, elle veut à tout prix éviter
+qu&#39;il se reproduise.
+Cependant, lorsqu&#39;elle découvre que son ancien
+bourreau est un de ses collègues, tout bascule.
+Elle s&#39;est fait une promesse : se venger de lui
+quelles qu&#39;en soient les conséquences.
+Elle n&#39;a dès lors plus qu&#39;un objectif en tête : le
+séduire pour mieux le détruire !
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

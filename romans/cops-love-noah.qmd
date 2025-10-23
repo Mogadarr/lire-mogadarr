@@ -1,0 +1,73 @@
+---
+title: "COPS and Love — Noah Hunter, le bon flic"
+description: "Un flic brisé, une nouvelle voie, des limites à ne pas franchir… et un passé qui ne lâche pas prise."
+image: ../images/couvertures/cops-noah.jpg
+date: 2025-03-15
+categories: [Romantic Suspense, Fratrie, Nouvelle vie]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Exclusivité Amazon</strong></li>
+    <li><strong>Ebook</strong> : 1,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/15wP4jL"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter COPS and Love — Noah Hunter, le bon flic sur Amazon">
+     Acheter
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/cops-noah.jpg" alt="Couverture — COPS and Love — Noah Hunter, le bon flic">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+COPS And Love Noah Hunter, le bon flic  
+Depuis ce terrible événement qui a failli lui coûter la vie, Noah Hunter n'est plus le même. Lui qui était un flic efficace, un père et un mari dévoué, il n'est désormais plus que l'ombre de lui-même. Son épouse a fini par demander le divorce ce qui achève de plonger l'ainé des frères Hunter dans le désarroi. Il en arrive même à mettre sa profession de flic entre parenthèse pour peut-être l'abandonner définitivement.
+
+Aidé de ses frères, il prend la décision de s'éloigner de la ville de Mayfair pour s'établir à Santa Mente, une ville située à quelques kilomètres. S'il s'en va, c'est aussi pour accomplir un vieux rêve et devenir professeur de littérature dans un lycée qui accueille une classe d'élèves en difficultés. Lui, l'ancien dyslexique, souhaite plus que tout transmettre ce qui lui a permis de réussir. C'est plein d'enthousiasme qu'il débarque dans ce lieu qui lui semble à des années lumière des crimes et des affaires qu'il a l'habitude de résoudre.
+
+Il ne souhaite qu'une chose : se reposer pour se reconstruire.
+
+Sauf que ce qu'il croyait être une sinécure est loin d'en être une surtout quand une élève, une dénommée Raven que tout le monde surnomme El Perla, trouble les convictions du beau professeur. Et puis, cette troublante et mystérieuse jeune femme est la conquête attitrée d'un chef de gang qui terrorise tout le lycée . Malgré cela, Raven continue à l'interroger...et à l'obséder ! Mais Noah reste pragmatique : un enseignant ne peut pas fantasmer sur une élève. Il lui suffit d'éviter de penser à elle.
+
+Et pourtant…
+
+Entre son désir d'homme, ses scrupules de prof, les tensions avec son ex-femme et son instinct d'ancien policier qui flaire un milieu louche, Noah devra garder la tête froide et le cœur bien accroché.
+
+L'ainé des frères Hunter aura-t-il droit à son happy-end ?
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

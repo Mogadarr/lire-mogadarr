@@ -1,0 +1,47 @@
+<!-- images/hero-saisons-sable.svg -->
+<svg width="2400" height="620" viewBox="0 0 2400 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bandeau Sur le sable (clair)">
+  <defs>
+    <!-- Départ EXACT navbar -->
+    <linearGradient id="sky-sable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#FFE5EC"/>
+      <stop offset="55%" stop-color="#FFE5EC"/>
+      <stop offset="100%" stop-color="#FFC2D1"/>
+    </linearGradient>
+    <!-- Mer douce -->
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B0C4B1" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#A3A380" stop-opacity="0.55"/>
+    </linearGradient>
+    <!-- Sable rosé -->
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#F7E1D7" />
+      <stop offset="100%" stop-color="#FFE5EC"/>
+    </linearGradient>
+    <filter id="soft-sable" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+  </defs>
+
+  <!-- Ciel -->
+  <rect width="2400" height="620" fill="url(#sky-sable)"/>
+
+  <!-- Vagues -->
+  <path d="M0,320 C300,340 600,310 900,335 C1200,360 1500,330 1800,350 C2050,360 2250,355 2400,365 L2400,620 L0,620 Z" fill="url(#sea)"/>
+  <!-- Plage -->
+  <path d="M0,440 C250,430 520,470 820,455 C1120,440 1500,480 1820,470 C2100,462 2280,478 2400,490 L2400,620 L0,620 Z" fill="url(#sand)"/>
+
+  <!-- Micro-étincelles -->
+  <g opacity="0.18">
+    <circle cx="220" cy="110" r="2.2" fill="#FFFFFF"/>
+    <circle cx="780" cy="90"  r="2.6" fill="#FFFFFF"/>
+    <circle cx="1260" cy="140" r="2.4" fill="#FFFFFF"/>
+    <circle cx="1720" cy="95"  r="2.8" fill="#FFFFFF"/>
+    <circle cx="2100" cy="150" r="2.2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Cœur discret dans le sable -->
+  <g opacity="0.22" transform="translate(1850,520) scale(1.2)">
+    <path d="M20 15 C20 -2, 45 -2, 45 15 C45 28, 30 38, 32 50 C30 38, 15 28, 15 15 Z" fill="#FB6F92" filter="url(#soft-sable)" />
+  </g>
+</svg>

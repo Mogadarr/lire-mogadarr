@@ -1,0 +1,83 @@
+---
+title: "COPS and Love — Lewis Hunter, l’ange déchu"
+description: "Addictions, rédemption et désir interdit — l’ange déchu de la fratrie Hunter reprend du service."
+image: ../images/couvertures/cops-lewis.jpg
+date: 2025-03-20
+categories: [Romantic Suspense, Fratrie, Addictions, Interdit]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Exclusivité Amazon</strong></li>
+    <li><strong>Ebook</strong> : 1,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~330 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/81P70EM"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter COPS and Love — Lewis Hunter sur Amazon">
+     Acheter
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/cops-lewis.jpg" alt="Couverture — COPS and Love — Lewis Hunter, l’ange déchu">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**COPS And Love — Lewis Hunter, l’ange déchu**
+
+Lewis Hunter reprend du service après plus d'une année de mise à l'écart.  
+Il va pouvoir redevenir le policier qu'il a toujours été.  
+La clinique dans laquelle il est hospitalisé lui impose néanmoins d'être suivi durant ses journées de travail par une psychologue qui lui sera entièrement dévouée.  
+C'est pour cela qu'il fait la rencontre de Prudence, fraîchement diplômée.  
+La jeune femme met tout son cœur dans ce protocole expérimental censé écarter le patient des tentations de rechutes dans les addictions.
+
+Seulement, dans cet univers plein de flics, elle a du mal à suivre Lewis,  
+qui n'accepte pas facilement d'être observé —  
+et encore moins que ses frères le mettent délibérément à l'écart de l'action qui lui a tant manqué.  
+Et puis, cet homme la trouble plus qu'il ne faudrait, plus qu'il ne le devrait.  
+Malgré ses connaissances en psychologie, elle peine à ne pas le considérer comme un **ange des plus fascinants**.  
+Logique, il en a tellement l'apparence.  
+De son côté, Lewis refuse catégoriquement cette comparaison.
+
+Entre journées mouvementées et prises de bec, notre jeune psychologue va apprendre que la vie d'un policier, même surprotégé, est loin d'être de tout repos.  
+C'est donc malgré eux que Prue et Lewis vont être mêlés à une enquête des plus importantes,  
+être les témoins malheureux d'événements dramatiques.  
+Être flic, c'est ça.  
+
+Le rapprochement entre nos deux héros, bien qu'interdit et scandaleux, sera inévitable, fatal...
+
+**L'angelot des frères Hunter pourra-t-il enfin s'élever sans se brûler les ailes ?**
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

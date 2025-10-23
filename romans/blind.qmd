@@ -1,0 +1,79 @@
+---
+title: "Blind"
+subtitle: "A compléter"
+description: "A compléter."
+title-block-banner: images/hero-romans.svg
+page-layout: full
+toc: false
+body-classes: romans
+---
+
+
+---
+title: "Blind (coécrit)"
+subtitle: "Un roman fort, coécrit par Mo Gadarr"
+description: "Découvrez Blind, une histoire inoubliable, saluée par ses lectrices et lecteurs."
+title-block-banner: images/hero-romans.svg
+page-layout: full
+toc: false
+body-classes: romans
+---
+
+<!-- ===== ACCROCHE ===== -->
+<div class="cta" style="margin: 1.2rem 0 2rem 0;">
+  <span class="material-icons" aria-hidden="true">visibility_off</span>
+  <strong>Blind</strong> — Un roman écrit à quatre mains, qui a touché de nombreux lecteurs.
+</div>
+
+<!-- ===== INFO ROMAN NON DISPONIBLE ===== -->
+<div class="card" style="padding:1.25rem; margin-bottom:1.5rem; background: #FFF2F5;">
+  <h3 style="margin-top:.2rem;">Ce roman n’est plus disponible à la vente</h3>
+  <p>
+    <strong>Blind</strong> est un roman coécrit par Mo Gadarr et Haley Davis.  
+    L’ouvrage a rencontré un bel accueil auprès de ses lectrices et lecteurs, et reste une étape importante du parcours d’écriture de Mo Gadarr.
+  </p>
+  <p>
+    <span style="color:#FB6F92;">♡</span> Si vous souhaitez en savoir plus ou lire des avis, découvrez la page du livre sur Babelio :
+  </p>
+
+<div style="display:inline-block;vertical-align:middle;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A3A380" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/><line x1="12" y1="7" x2="12" y2="13"/></svg>
+</div>
+
+[Lire les avis sur Babelio](https://www.babelio.com/livres/Davis-Blind/1102213){.btn .btn-secondary target="_blank"}
+
+</div>
+
+<!-- ===== CONTEXTE / SYNOPSIS ===== -->
+<section class="book-two-col" markdown="1">
+
+<div class="resume">
+### Synopsis
+
+> *Blind* raconte l’histoire de deux êtres blessés, que la vie n’a pas épargnés, et qui vont devoir apprendre à se reconstruire ensemble.  
+> Plongez dans une romance émouvante, à la fois sombre et lumineuse, qui aborde des thèmes puissants : la confiance, le handicap, la reconstruction et la force de l’amour.
+
+
+</div>
+
+
+
+</section>
+
+<!-- ===== CTA : Autres romans ===== -->
+<div class="back-home">
+  <a href="https://mogadarr.github.io/lire-mogadarr/romans" class="btn-back" role="button" aria-label="Découvrir les romans">
+    <span class="arrow">-`♡´-</span> Tous les romans de Mo Gadarr
+  </a>
+
+</div>
+
+<br>
+
+<div class="back-home">
+  <a href="https://mogadarr.github.io/lire-mogadarr/" class="btn-back" role="button" aria-label="Retour à l’accueil">
+    <span class="arrow">←</span> Retour à l’accueil
+  </a>
+</div>
+
+

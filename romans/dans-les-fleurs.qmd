@@ -1,0 +1,76 @@
+---
+title: "Dans les fleurs"
+description: "Romance contemporaine — douceur, renouveau et émotions à fleur de peau."
+image: ../images/couvertures/fleurs.jpg
+date: 2024-04-15
+categories: [Romance contemporaine, Printemps, Émotions]
+title-block-banner: images/hero-saison-fleurs.svg
+body-classes: dans-les-fleurs
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~300 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/0uMMEO2"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Dans les fleurs sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-fleurs.html"
+     role="button"
+     aria-label="Lire un extrait de Dans les fleurs">
+     Lire un extrait
+  </a>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/fleurs.jpg" alt="Couverture — Dans les fleurs">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+<!-- ⬇️ Insère ici le texte officiel de l'auteure, sans modification -->
+Léonie en a marre.
+Elle en a assez d’être engluée dans le complexe de la meilleure amie qui la condamne à regarder les autres s’aimer sans jamais pouvoir vibrer au contact de l’amour.
+Qu’à cela ne tienne : elle veut forcer le destin et se laisser transformer par une belle histoire d’amour digne des contes de fées, du genre de celles que vivent ses sœurs de cœur, Dannah et Flora.
+Cela tombe bien : cet été, un ami d’enfance lui propose de s’envoler pour la Guadeloupe pour l’y retrouver. La jeune femme n’hésite pas un seul instant. Elle abandonne ses habituelles vacances en métropole pour retourner sur son île d’origine. Là-bas, ce sera facile de tomber amoureuse surtout que c’est tout le luxe et le confort du département que son prétendant lui promet.
+Seulement, une fois là-bas, le hasard va fléchir cette destinée. Une chaussé glissante, une vitesse excessive et voilà notre héroïne tombée en pleine nature, dans les fonds verdoyants de la Basse-Terre.
+Elle ne se retrouve pas seule. Milo, un ermite planqué là depuis cinq ans, vient à son secours mais il est aux antipodes de ce qu’elle était venue chercher ici. Mal rasé, rustre, les cheveux longs et pas un sou devant lui : non. Entre notre belle guadeloupéenne et lui, ce n’est d’office pas possible surtout que cet homme est le pariât de l’île, considéré par tous comme le Blanc venu profiter de ce qu’offre le pays et pour cause, son comportement d’ours mal léché n’aide absolument pas à son intégration.
+Mais si Léonie l’ignore, nous savons que les contraires s’attirent toujours et quand tout votre entourage vous pousse à vous éloigner de la personne qui est en train de vous faire flancher, céder à la tentation est encore plus enivrant…
+
+**Mo Gadarr vous propose un voyage à moindre coût à destination d’une histoire d’amour haute en couleurs !**
+
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

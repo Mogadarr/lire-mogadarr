@@ -1,0 +1,85 @@
+---
+title: "À Noël, je serai une princesse licorne !"
+description: "Une romance de Noël déjantée et drôle — quand traditions et caractère s’entrechoquent."
+image: ../images/couvertures/princesse-licorne.jpg
+date: 2024-12-20
+categories: [Romance de Noël, Comédie romantique, Feel-good]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~340 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/3LY8JQI"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter À Noël, je serai une princesse licorne ! sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-licorne.html"
+     role="button"
+     aria-label="Lire un extrait de À Noël, je serai une princesse licorne !">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/princesse-licorne.jpg" alt="Couverture — À Noël, je serai une princesse licorne !">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+Tout commence comme un conte de fées à Noël... ou pas !
+
+Il était une fois une belle princesse qui devait se fiancer à un beau prince à Noël. Pour la préparer à cet évènement exceptionnel qui lui permettrait de se marier et d'unir son royaume à celui de son futur époux, sa tante avait demandé à un jeune homme de lui apprendre la façon dont une princesse devait se conduire, parler et s'habiller. Après un travail acharné et une collaboration sereine, la princesse devint élégante, bien élevée et encore plus jolie. Elle ne disait plus de gros mots, se tenait parfaitement à table, ne se tordait plus la cheville quand elle portait une longue robe et des talons. Le jour de Noël, son prince fut ébloui dès qu'elle apparut et...
+Mais non ! Stop ! Stop ! Stop !
+
+Moi, c'est Hariette Aliénor De Gignes. Avec un nom pareil, on pourrait croire que c'est bien moi la princesse Licorne-Cul-cul la praline citée plus haut, dans cette histoire à dormir debout. Si je suis princesse ? Oui, mais c'est un truc qui est loin de m'enchanter et c'est long à expliquer. Déjà, je préfère qu'on m'appelle Asha (H.A), c'est plus cool. Est-ce que je dis des gros mots ? Oh que oui ! Je pense même à breveter le mot "merde" tant je le prononce. Si je dois me marier ? Oui et je suis dans la bouillasse. Parce qu'avec mes dreadlocks, mon piercing dans le nez, mes yeux verts et mon rat sur l'épaule, je suis loin d'être la princesse licorne dont rêve mon futur mari. Alors, on m'a mis dans les pattes ce chieur d'Axel, un spécialiste "du maintien, de l'étiquette et des bonnes manières" censé me remettre dans le droit chemin en un temps record.
+
+Tu parles !
+
+Axel, le nickel  
+Axel, la poubelle  
+Axel, le teckel...  
+
+J'en ai tellement marre de ce type que la litanie des insultes le concernant pourrait continuer sur des kilomètres. S'il continue à me fatiguer avec son protocole à la con, je pense que je vais finir par le découper en morceaux, le hacher menu pour l'emballer dans du papier cadeaux et le donner à manger aux loups qui peuplent les forêts du royaume. J'en donnerais une double ration à ceux qui crèvent le plus la dalle.
+
+Bref, il est si chiant que je ne fais même pas attention à son regard bleu, ni à son sourire sexy et encore moins à son torse gonflé de muscles vite-fait entraperçu...  
+Vous croyez que je suis quand même sous le charme de cet emmerdeur et qu'il me transformera en princesse cul-cul ?  
+Vous croyez vraiment au Père Noël !
+
+**Mo Gadarr revient dans une romance déjantée pour un Noël couronné !**
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

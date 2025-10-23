@@ -1,0 +1,73 @@
+---
+title: "My Sweet Babysitter"
+description: "Une maman solo, un baby-sitter inattendu… et des sentiments qui s’invitent."
+image: ../images/couvertures/my-sweet-babysitter.jpg
+date: 2024-05-15
+categories: [Romance contemporaine, Maman solo, Baby-sitter]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~300 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/67285eT"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter My Sweet Babysitter sur Amazon">
+     Acheter
+  </a>
+  <!--
+  <a class="btn btn-secondary"
+     href="#"
+     role="button"
+     aria-label="Lire un extrait de My Sweet Babysitter">
+     Lire un extrait
+  </a>-->
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/my-sweet-babysitter.jpg" alt="Couverture — My Sweet Babysitter">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Cette histoire est dédiée à toutes les mamans solos qui rêvent d'être aidées...et d'avoir un baby-sitter aussi sexy qu'adorable !**
+
+Mia vit une romance passionnée avec celui qu'elle considère comme son prince charmant. Cet homme est parfait. La preuve : quand il apprend sa grossesse accidentelle, tout se déroule de manière angélique. Mia se voit déjà promise à un bel avenir en compagnie de l'amour de sa vie.
+Mais quand elle comprend une terrible vérité, la rupture est douloureuse. Mia va devoir élever seule son bébé. Son accouchement rocambolesque met sur son chemin Dominique qui se fait appeler Doc. La jeune femme est loin de concevoir qu'un tel personnage puisse entrer dans sa vie et dans celle de son enfant. Mais la réalité économique va la rattraper. Elle va devoir travailler et trouver un moyen de faire garder son enfant.
+La jeune maman va devoir composer avec cet énergumène à des kilomètres du type d'homme qu'elle souhaite voir approcher son bébé et encore moins son cœur.
+
+**Mia pourra-t-elle distinguer le vrai du faux afin d'élever son enfant tout en résistant au charme de son (sweet) babysitter ?**
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

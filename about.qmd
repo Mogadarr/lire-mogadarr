@@ -1,0 +1,83 @@
+---
+title: "Mogadarr"
+subtitle: "Auteure de New Romance"
+description: "Site officiel — romans, nouveautés, événements."
+title-block-banner: true      # ton CSS charge le SVG clair/sombre pour page-id: accueil
+page-id: "accueil"
+page-layout: full
+toc: false
+format:
+  html:
+    link-external-newwindow: true
+---
+
+<!-- ===== Accroche ===== -->
+<p class="badge-accent" style="display:inline-block;margin:0 0 1rem 0;">Bienvenue</p>
+
+<!-- ===== 2 colonnes : À propos + Portrait / CTAs ===== -->
+<section class="home-hero-two-col">
+
+  <div class="bio-col">
+  <h3>À propos</h3>
+
+  Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Très vite, les réactions sur le texte ont été vives et c'est en octobre qu'il remporte le concours organisé. Auteure connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+  Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée. Désormais éditée chez Black Ink, elle devient une véritable auteure hybride.
+
+  Après le succès l’an dernier de Homme sérieux recherche poupée Bimbo pour Noël qui plongeait le lecteur dans un Noël rose bonbon tout en dénonçant dénoncer la portée négative des préjugés concernant les femmes, cette année, elle nous emmène dans le royaume d’Alvinie. Dans À Noël, je serai une princesse licorne, elle nous propose une romance déjantée tout en analysant la pression des traditions. 
+
+  Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Très vite, les réactions sur le texte ont été vives et c'est en octobre qu'il remporte le concours organisé. Auteure connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+  Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée.
+
+  Après le succès de J’ai juste cliqué ! qui relatait les affres des rencontres virtuelles, Mo Gadarr revient avec la série COPS. Dans ce second volet, elle dénonce les dégâts causés par les addictions. 
+
+  Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Désormais éditée dans deux maisons d’éditions prestigieuses, elle est devenue une auteure hybride. Toujours très connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+  Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée.
+
+  Mo Gadarr nous offre ici une romance pleine et de sensualité tout en relatant le problème des préjugés et du mensonge. 
+
+  Professeur de français, Ludivine Lepeix s'inspire de son quotidien pour écrire ses livres sous un autre pseudonyme. Responsable du club théâtre de son établissement depuis plus de dix ans, elle écrit ses propres pièces qui enchantent les petits et les grands. Les adolescents, acteurs ou spectateurs, attendent désormais avec impatience ses spectacles de théâtre loufoques et modernes. 
+
+  Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Désormais éditée dans deux maisons d’éditions prestigieuses, elle est devenue une auteure hybride. Toujours très connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+  Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée.
+
+  Mo Gadarr nous offre ici une romance fleurie et poignante tout en dénonçant les dégâts de l’hypocrisie et de la trahison. 
+
+  Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Désormais éditée dans deux maisons d’éditions prestigieuses, elle est devenue une auteure hybride. Toujours très connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+  Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée.
+
+  Mo Gadarr nous offre ici une romance verdoyante et estivale pour dénoncer les mécanismes du racisme et du rejet de l’autre. 
+
+  Professeur de français, Mo Gadarr s’inspire de son quotidien et de l’actualité pour écrire ses romances. Désormais éditée dans deux maisons d’éditions prestigieuses, elle est devenue une auteure hybride en publiant bon nombre de ses romans en autoédition. Toujours très connectée, Mo Gadarr partage son temps entre ses cours, ses corrections, sa vie de famille et l'écriture sans oublier les réseaux sociaux.
+
+  Elle souhaite toujours mêler la Romance à un sujet important ce qui rend ses histoires addictives et uniques.
+
+  Mo Gadarr nous offre dans Undress Me une romance sombre, sexy et poignante pour parler des traumatismes de l’enfance et des dangers du fanatisme religieux.
+  </div>
+
+  <div>
+    <div class="portrait-card">
+      <img src="images/banner-mo-gadarr.png" alt="Mogadarr — portrait illustré">
+    </div>
+
+    <div class="cta-stack">
+      <a class="btn btn-primary" href="dernier-livre.qmd" role="button">Découvrir le dernier roman</a>
+      <a class="btn" href="romans/index.qmd" role="button">Voir tous les romans</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===== Bandeau Nouveauté (strip) ===== -->
+<section class="strip-highlight">
+  <div class="strip-inner">
+    <div class="strip-left">
+      <h4 style="margin:.2rem 0;">Prends de la bûche</h4>
+      <p style="margin:.2rem 0;">
+        Romance de Noël au cœur des forêts canadiennes — une rencontre qui déjoue les apparences.
+      </p>
+    </div>
+    <div class="strip-right">
+      <a class="btn btn-primary" href="dernier-livre.qmd" role="button">En savoir plus</a>
+    </div>
+  </div>
+</section>

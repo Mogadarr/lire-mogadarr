@@ -1,0 +1,75 @@
+---
+title: "Sur le sable"
+description: "Une romance estivale au goût de sel, de liberté et de secondes chances."
+image: ../images/couvertures/sur-le-sable.jpg
+date: 2024-07-10
+categories: [Romance contemporaine, Été, Seconde chance]
+title-block-banner: images/hero-saisons-sable.svg
+body-classes: sur-le-sable
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/aY1uzTo"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Sur le sable sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-sable.html"
+     role="button"
+     aria-label="Lire un extrait de Sur le sable">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/sur-le-sable.jpg" alt="Couverture — Sur le sable">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+Sur les plages dorées de l’Atlantique, les destins de **Nina** et **Mathieu** se croisent à nouveau après des années de silence.  
+Elle, rêveuse et entière, a fui la ville pour retrouver un sens à sa vie.  
+Lui, photographe reconnu, cherche à effacer les cicatrices d’un passé douloureux.  
+
+Quand leurs chemins se recroisent sur le sable chaud d’un petit village côtier, les souvenirs ressurgissent avec la force des marées.  
+Mais certaines blessures ne guérissent qu’à la lumière du pardon.  
+Entre liberté, mer et renaissance, leur histoire se réécrit au rythme des vagues.
+
+Et si le bonheur se trouvait là où tout avait commencé — **sur le sable** ?
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

@@ -1,0 +1,135 @@
+---
+title: "Romans de Mo Gadarr"
+subtitle: "Entre Romance contemporaine et émotions fortes"
+description: "Découvrez l’ensemble des romans de Mo Gadarr — éditions et autoédition."
+title-block-banner: images/hero-romans.svg
+page-layout: full
+toc: false
+body-classes: romans
+---
+
+<section class="intro-romans" markdown="1">
+### 💕 Les univers de Mo Gadarr
+Partez à la découverte des séries, des comédies de Noël, des romances de saison et des one-shots contemporains.
+</section>
+
+<!-- ===== Barre de filtres ===== -->
+<nav class="roman-filter" aria-label="Filtrer les rubriques">
+  <button class="chip active" data-filter="all" aria-pressed="true">Tous</button>
+  <button class="chip" data-filter="edition" aria-pressed="false">Édition</button>
+  <button class="chip" data-filter="series" aria-pressed="false">Séries</button>
+  <button class="chip" data-filter="fetes" aria-pressed="false">Fêtes</button>
+  <button class="chip" data-filter="oneshots" aria-pressed="false">One-shots</button>
+  <button class="chip" data-filter="coecrits" aria-pressed="false">Coécrits</button>
+</nav>
+
+::: {.section-grid-3}
+
+::: {.group-slab data-cat="edition"}
+#### 𓄲 Romans en édition 𓄲𓄲 ⋆˙⟡♡
+::: {.roman-pills}
+[Black Feelings — Saison 1](black-feelings-1.qmd){.pill}
+[Black Feelings — Saison 2](black-feelings-2.qmd){.pill}
+[Be Sweeter](be-sweeter.qmd){.pill}
+[Be Stronger](be-stronger.qmd){.pill}
+[Be Yourself](be-yourself.qmd){.pill}
+:::
+:::
+
+::: {.group-slab data-cat="series"}
+#### 👮‍♂️ COPS and Love (série) ꨄ︎ ㅤ♡
+::: {.roman-pills}
+[Cops And Love — Will Hunter, le bad boy](cops-and-love-will-hunter.qmd){.pill}
+[Cops And Love — Noah Hunter, le bon flic](cops-love-noah.qmd){.pill}
+[Cops And Love — Lewis Hunter, l’ange déchu](cops-love-lewis.qmd){.pill}
+:::
+:::
+
+::: {.group-slab data-cat="series"}
+#### 🌿ㅤ♡ Au fil des saisons (trilogie) ㅤ♡
+::: {.roman-pills}
+[Sur le sable](sur-le-sable.qmd){.pill}
+[Dans les fleurs](dans-les-fleurs.qmd){.pill}
+[En pleine nature](en-pleine-nature.qmd){.pill}
+:::
+:::
+
+::: {.group-slab data-cat="fetes"}
+#### ❤️ Fêtes & occasions ✩₊˚.⋆☾⋆⁺₊✧
+::: {.roman-pills}
+[Believe In (Santa) Klaus](believe-in-santa-klaus.qmd){.pill}
+[Be Mine For Valentine](be-mine-valentine.qmd){.pill}
+[Homme sérieux recherche poupée Bimbo pour Noël](poupee-bimbo.qmd){.pill}
+[À Noël, je serai une princesse licorne !](noel-princesse-licorne.qmd){.pill}
+[Noël, coups bas et Secret Santa](noel-coups-bas.qmd){.pill}
+[Prends de la bûche](../dernier-livre.qmd){.pill}
+:::
+:::
+
+::: {.group-slab data-cat="oneshots"}
+#### ✎ One-shots contemporains ✩₊✎
+::: {.roman-pills}
+[My Sweet Babysitter](my-sweet-babysitter.qmd){.pill}
+[J’ai juste cliqué !](jai-juste-clique.qmd){.pill}
+[Et zut !](et-zut.qmd){.pill}
+[Undress Me](undress-me.qmd){.pill}
+:::
+:::
+
+::: {.group-slab data-cat="coecrits"}
+#### 𓂃🖋 Coécrits ♡✎
+::: {.roman-pills}
+[Blind (coécrit)](blind.qmd){.pill}
+[Hurt (coécrit)](hurt.qmd){.pill}
+:::
+:::
+
+:::
+
+<div class="back-home">
+  <a href="../index.qmd" class="btn-back" role="button" aria-label="Retour à l’accueil">
+    <span class="arrow">←</span> Retour à l’accueil
+  </a>
+</div>
+
+<!-- ===== JS minimal : filtre des rubriques ===== -->
+<script>
+(function(){
+  const KEY = "mogadarr.romanFilter";
+  const bar = document.querySelector(".roman-filter");
+  if(!bar) return;
+
+  const buttons = bar.querySelectorAll(".chip");
+  const groups  = document.querySelectorAll(".group-slab");
+
+  function applyFilter(cat){
+    groups.forEach(g => {
+      const match = (cat === "all") || (g.dataset.cat === cat);
+      g.style.display = match ? "" : "none";
+    });
+  }
+
+  // Restore last selection
+  const saved = localStorage.getItem(KEY) || "all";
+  applyFilter(saved);
+  buttons.forEach(b => {
+    const on = b.dataset.filter === saved;
+    b.classList.toggle("active", on);
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+
+  // Click handling
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const cat = btn.dataset.filter;
+      applyFilter(cat);
+      localStorage.setItem(KEY, cat);
+      buttons.forEach(b => {
+        const on = b === btn;
+        b.classList.toggle("active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    });
+  });
+})();
+</script>

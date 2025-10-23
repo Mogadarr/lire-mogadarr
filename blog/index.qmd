@@ -1,0 +1,41 @@
+---
+title: "Le Blog de Mo Gadarr"
+subtitle: "Coulisses d’écriture • Nouvelles • Événements"
+description: "Pensées, making-of, actu et rencontres — suivez l’univers de Mo Gadarr."
+title-block-banner: ../images/hero-blog.svg
+page-layout: full
+toc: false
+body-classes: blog-home
+
+# Listing conforme Quarto
+listing:
+  contents:
+    - posts
+  type: grid
+  sort: "date desc"
+  page-size: 9
+  categories: true
+  feed: true
+  fields: [image, title, description, date, categories]
+---
+
+::: {.blog-hero}
+::: {.hero-left}
+<div class="badge-accent">Le blog</div>
+
+## Émotions, engagement & romance
+
+Mo Gadarr captive ses lectrices par des romances où l’émotion, la sensualité et la tension dominent.
+Ici : coulisses d’écriture, nouvelles et rencontres.
+
+
+:::
+
+::: {.hero-right}
+![](../images/blog/mo-blog.png){.hero-portrait alt="Portrait de Mo Gadarr"}
+:::
+:::
+
+
+
+## Derniers articles

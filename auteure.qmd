@@ -1,0 +1,24 @@
+---
+title: "Mo Gadarr"
+subtitle: "Auteure connectée"
+description: "A propos de Mogadarr"
+about:
+  template: jolla
+  image: images/photo_mo.JPG
+title-block-banner: images/hero-extrait-buche.svg
+page-layout: full
+body-classes: auteure
+
+---
+
+
+Professeur de français, Mo Gadarr s'est inspirée de son quotidien pour écrire son premier livre Black feelings sur la plateforme Fyctia. Très vite, les réactions sur le texte ont été vives et c'est en octobre qu'il remporte le concours organisé. Auteure connectée, Mo Gadarr partage son temps entre ses cours, ses corrections et l'écriture sans oublier les réseaux sociaux.
+Elle souhaite toujours mêler la Romance à un sujet d'actualité afin de créer un nouveau genre : la Romance engagée. Désormais éditée chez Black Ink, elle devient une véritable auteure hybride. Ses romans et les messages qu’ils véhiculent restent dans la tête et dans le cœur. 
+
+<br></br>
+
+<div class="back-home">
+  <a href="https://mogadarr.github.io/lire-mogadarr/" class="btn-back" role="button" aria-label="Retour à l’accueil">
+    <span class="arrow">←</span> Retour à l’accueil
+  </a>
+</div>

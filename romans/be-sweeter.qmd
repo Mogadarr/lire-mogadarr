@@ -1,0 +1,109 @@
+
+---
+title: "Be Sweeter"
+description: "Réédition du titre « T’as qu’à maigrir » — une romance contemporaine piquante et sensible."
+image: ../images/couvertures/be-sweeter.jpg
+date: 2024-06-01
+categories: [Romance contemporaine, Body positive, Dépassement de soi]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+   💞 💞
+  <br></br>
+ 💞   💞💞 
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Éditeur</strong> : Black Ink (réédition)</li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 14 €</li>
+    <li><strong>Relié</strong> : 18 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/74G0HIp" 
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Be Sweeter sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-be-sweeter.html"
+     role="button"
+     aria-label="Lire un extrait de Be Sweeter">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/be-sweeter.jpg" alt="Couverture — Be Sweeter">
+</div>
+
+<div class="resume">
+
+<br></br>
+
+## Résumé
+
+**Be Stronger — RÉÉDITION DU TITRE "T'AS QU'À MAIGRIR"**
+
+Slim a plutôt la belle vie. Elle a un boulot qu&#39;elle
+aime, une petite fille adorable, un mec beau
+comme un dieu ainsi qu’une amie à la
+personnalité de dingue qui est toujours là pour
+elle. Seulement, Slim a aussi un appétit
+redoutable, le tour de taille qui va avec, une
+maladresse systématique et un terrible manque
+de confiance en elle.
+Alors quand son compagnon la plaque du jour
+au lendemain, elle est déterminée à le
+reconquérir, quitte à remettre en question ce
+
+qu’elle est : une femme ronde.
+Quitte aussi à accepter l&#39;aide d’un coach, et
+surtout à le supporter, puisque le dénommé
+Ulrich est un connard de première.
+Le supporter, vraiment ? Et cette attirance
+totalement insensée qu&#39;elle éprouve pour lui
+alors qu&#39;il est juste odieux envers elle, on en
+parle ?
+Eh oui, malgré la flagrante grossophobie de son
+coach, Slim est incapable de résister à son
+regard lagon, à ses traits d’humour et encore
+moins à son aura décuplé par le mystère qui
+l’entoure.
+Elle en est pourtant certaine : Ulrich la déteste,
+elle, la ronde. Et ce mec est tellement lunatique
+qu’il est difficile pour notre héroïne de savoir
+sur quel pied danser. Tout ce qui paraissait très
+simple va vite se compliquer...
+Entre son challenge et les épreuves que la vie
+lui réserve, Slim pourra-t-elle tout encaisser
+sans se perdre elle-même ? Doit-on maigrir
+pour être heureuse ?
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

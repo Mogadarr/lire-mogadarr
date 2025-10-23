@@ -1,0 +1,69 @@
+---
+title: "Undress Me"
+description: "Une romance sexy et poignante : exposer son corps est parfois plus simple que de mettre son cœur à nu."
+image: ../images/couvertures/undress-me.jpg
+date: 2024-06-10
+categories: [Romance contemporaine, Sexy, Émotions fortes]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~300 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/5D9NL7B"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Undress Me sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-undress-me.html"
+     role="button"
+     aria-label="Lire un extrait de Undress Me">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/undress-me.jpg" alt="Couverture — Undress Me">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+Brock est un mec qui vit sa vie à 100% pour ne jamais rien regretter. Il travaille depuis ses 21 ans dans une boite de nuit chippendales, le Passion Men, dans la ville puritaine de Church, dans l’Oklahoma. Il souhaite maintenant récupérer la discothèque qui va changer de direction et pour cela, il est prêt à tout. Lorsque Tanya arrive, elle le chamboule à un point qu’il en perd tous ses repères.  
+Le beau strip-teaseur n’est pas au bout de ses peines : sa sœur de cœur, Georgia, se met à changer radicalement. De plus, il sent bien que quelque chose en lui ne tourne pas rond depuis toujours.  
+Brock est habitué à se dessaper en public mais il verra qu’exposer son corps est souvent bien plus facile que d’exposer son cœur.  
+Mo Gadarr revient dans cette romance sexy et poignante.
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

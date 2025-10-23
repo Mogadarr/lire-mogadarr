@@ -1,0 +1,36 @@
+/* ===============================
+   Mo Gadarr — Theme (DARK)
+   Variables + réglages dark-only
+   =============================== */
+/*-- scss:defaults --*/
+/* Petits overrides Bootstrap pour le mode sombre */
+$navbar-bg:    #2b2f31;
+$navbar-fg:    #E8ECEE;
+$link-color:   #E8ECEE;
+$body-bg:      #1f2324;
+$body-color:   #E6EAEB;
+$card-bg:      #262b2d;
+$border-color: rgba(230,234,235,.12);
+
+/*-- scss:rules --*/
+/* Variables CSS (sombre) – utilisées par styles.css */
+body.quarto-dark{
+  --earth-50:#2b2f31;
+  --earth-200:#3a4143;
+  --earth-300:#4a5457;
+  --earth-900:#E8ECEE;
+  --accent:#ff8fb1;
+
+  --bg:#1f2324; --text:#E6EAEB; --card:#262b2d; --border:rgba(230,234,235,.12);
+}
+
+/* Swap de bannière spécifique au sombre */
+body.quarto-dark.dernier-livre .quarto-title-block .quarto-title-banner{
+  background-image: url("images/hero-buche-dark.svg") !important;
+}
+
+/* (Optionnel) variante sombre pour l’accueil – décommenter si présence du fichier */
+body.quarto-dark.accueil .quarto-title-block .quarto-title-banner{
+  background-image: url("images/hero-portrait-dark.svg") !important;
+}
+

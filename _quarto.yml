@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+
+website:
+  cookie-consent: true
+  site-url: https://mogadarr.github.io/lire-mogadarr/
+  favicon: images/favicon.png
+  search: true
+  navbar:
+    collapse-below: md
+    pinned: true
+    background: "#F7E1D7"   
+    foreground: "#4A5759"
+    right:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "Dernier roman"
+        href: dernier-livre.qmd
+      - text: "Romans"
+        href: romans/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "À propos"
+        href: auteure.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+format:
+  html:
+    lang: fr
+    theme:
+      light: [flatly, theme-light.scss]   # base Bootstrap + ton SCSS clair
+      dark:  [darkly, theme-dark.scss]    # base Bootstrap + ton SCSS sombre
+    css: styles.css                       # styles communs
+    include-in-header:
+      - file: _includes/head-icons.html     # (optionnel) ton fichier custom
+      - text: |
+          <link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    toc: false
+    smooth-scroll: true
+    anchor-sections: false
+

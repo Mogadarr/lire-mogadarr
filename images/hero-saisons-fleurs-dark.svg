@@ -1,0 +1,49 @@
+<!-- images/hero-saisons-fleurs-dark.svg -->
+<svg width="2400" height="620" viewBox="0 0 2400 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bandeau Dans les fleurs (sombre)">
+  <defs>
+    <linearGradient id="sky-fleurs-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#2b2f31"/>
+      <stop offset="60%" stop-color="#2b2f31"/>
+      <stop offset="100%" stop-color="#3a4143"/>
+    </linearGradient>
+    <linearGradient id="leaf-d" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#7e8f86"/>
+      <stop offset="100%" stop-color="#A3A380"/>
+    </linearGradient>
+    <linearGradient id="petal-d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#FF8FAB"/>
+      <stop offset="100%" stop-color="#FB6F92"/>
+    </linearGradient>
+    <filter id="soft-fleurs-d" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+  </defs>
+
+  <rect width="2400" height="620" fill="url(#sky-fleurs-d)"/>
+
+  <g transform="translate(300,430) scale(1.2)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="220" ry="60" fill="url(#leaf-d)"/>
+  </g>
+  <g transform="translate(1140,480) scale(1.1)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="260" ry="70" fill="url(#leaf-d)"/>
+  </g>
+  <g transform="translate(1980,440) scale(1.2)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="220" ry="60" fill="url(#leaf-d)"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#soft-fleurs-d)">
+    <path d="M520,260 C560,220 610,230 640,260 C610,290 560,300 520,260 Z" fill="url(#petal-d)"/>
+    <path d="M860,220 C900,185 950,200 980,230 C945,260 895,265 860,220 Z" fill="url(#petal-d)"/>
+    <path d="M1480,260 C1520,225 1570,235 1600,265 C1570,295 1520,300 1480,260 Z" fill="url(#petal-d)"/>
+    <path d="M1860,210 C1900,180 1950,195 1978,226 C1945,254 1895,260 1860,210 Z" fill="url(#petal-d)"/>
+  </g>
+
+  <g opacity="0.28">
+    <circle cx="260" cy="120" r="2.2" fill="#ffffff"/>
+    <circle cx="720" cy="100" r="2.4" fill="#ffffff"/>
+    <circle cx="1320" cy="140" r="2.2" fill="#ffffff"/>
+    <circle cx="1760" cy="90"  r="2.6" fill="#ffffff"/>
+    <circle cx="2120" cy="150" r="2.3" fill="#ffffff"/>
+  </g>
+</svg>

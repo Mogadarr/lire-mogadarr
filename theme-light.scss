@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+/* Petits overrides Bootstrap pour le mode clair */
+$navbar-bg:    #FFE5EC;
+$navbar-fg:    #4A5759;
+$link-color:   #4A5759;
+$body-bg:      #FFFFFF;
+$body-color:   #232729;
+$card-bg:      #FFFFFF;
+$border-color: rgba(74,87,89,.12);
+
+/*-- scss:rules --*/
+/* Variables CSS (clair) – utilisées par styles.css */
+:root{
+  --earth-50:#FFE5EC;   /* navbar + surfaces claires rosées */
+  --earth-200:#DEDBD2;  /* hovers doux */
+  --earth-300:#B0C4B1;  /* état actif */
+  --earth-900:#4A5759;  /* texte principal sur clair */
+  --accent:#FB6F92;
+
+  --bg:#FFFFFF; --text:#232729; --card:#FFFFFF; --border:rgba(74,87,89,.12);
+}
+
+/* Recadrages de bannière (le visuel vient du YAML title-block-banner) */
+body.accueil .quarto-title-block .quarto-title-banner{
+  background-position:center 62% !important;  /* cadrage visage */
+}
+body.dernier-livre .quarto-title-block .quarto-title-banner{
+  background-position:center 78% !important;  /* pour voir la bûche */
+}
+
+/* Couleur personnalisée du titre dans le bandeau (clair) */
+.quarto-title-block .quarto-title-banner h1.title,
+.quarto-title-block .quarto-title-banner .subtitle {
+  color: #4A5759;
+  text-shadow: none;
+}

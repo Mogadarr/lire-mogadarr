@@ -1,0 +1,90 @@
+---
+title: "Et Zut !"
+description: "Une comédie romantique piquante et tendre où l’amour surgit quand on s’y attend le moins."
+image: ../images/couvertures/et-zut.jpg
+date: 2025-04-12
+categories: [Comédie romantique, Enemies to Lovers, Feel-good]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~290 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/dpnYF8v"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Et Zut ! sur Amazon">
+     Acheter
+  </a>
+  <!-- 
+  <a class="btn btn-secondary"
+     href="#"
+     role="button"
+     aria-label="Lire un extrait de Et Zut !">
+     Lire un extrait
+  </a>-->
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/et-zut.jpg" alt="Couverture — Et Zut !">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Qui craquera le premier ?**
+
+Ella est du genre terre-à-terre.  
+Elle croit aussi peu en l’amour qu’au Père Noël.  
+À bientôt 30 ans, elle préfère regarder ses proches s’épanouir dans leur vie sentimentale.  
+Pour elle, la messe est dite. Elle finira sans doute vieille fille, point barre.  
+
+Et zut ! Voilà sa petite sœur qui la traîne dans un speed dating et Ella s’efforce de faire bonne figure.  
+Le hasard replace sur son chemin un homme qu’elle connaît très bien et qu’elle a appris à détester.  
+
+**T.I.M — Timéo Lachérie.**  
+L’ado taquin avec lequel elle passait tous ses étés.  
+Une discussion commence entre les deux anciens camarades.  
+Tim est persuadé qu’Ella est comme toutes les femmes : forcément fan de cœurs, de fleurs et de chocolats.  
+Et c’est là-dessus que la jeune femme est loin d’être d’accord.  
+
+De toute façon, pour elle, les hommes sont tous sensibles à deux choses :  
+un joli minois assorti à un rentre-dedans bien calculé.  
+Sans surprise, Tim ne partage pas cet avis.  
+
+Ce désaccord les mène à un défi : celui de faire craquer l’autre en premier avant un mois.  
+Le seul gain sera de rabattre le caquet de l’adversaire pour prouver que les hommes et les femmes ne sont peut-être plus faits pour s’aimer.  
+
+Seulement, s’il n’y a pas de vrai gain à entreprendre ce jeu dangereux de la séduction,  
+nos deux héros, s’ils s’entêtent dans leurs convictions, pourraient bien y laisser leur cœur…
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

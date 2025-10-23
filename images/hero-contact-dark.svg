@@ -1,0 +1,80 @@
+<svg width="2400" height="720" viewBox="0 0 2400 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contact — Mo Gadarr">
+  <defs>
+    <!-- Palette -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <!-- même départ que la navbar claire (#FFE5EC) -->
+      <stop offset="0%" stop-color="#2b2f31"/>
+      <stop offset="55%" stop-color="#B66E84"/>
+      <stop offset="100%" stop-color="#8F5C6E"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2f31" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#FF8FAB" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FB6F92" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF8FAB" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+    <!-- Icônes simplifiées (olive) -->
+    <g id="icon-envelope">
+      <rect x="-36" y="-26" width="72" height="52" rx="10" fill="none" stroke="#A3A380" stroke-width="4"/>
+      <path d="M-36,-12 L0,10 L36,-12" fill="none" stroke="#A3A380" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="icon-instagram">
+      <rect x="-28" y="-28" width="56" height="56" rx="14" fill="none" stroke="#A3A380" stroke-width="4"/>
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#A3A380" stroke-width="4"/>
+      <circle cx="14" cy="-14" r="4" fill="#A3A380"/>
+    </g>
+    <g id="icon-goodreads">
+      <rect x="-28" y="-28" width="56" height="56" rx="14" fill="none" stroke="#A3A380" stroke-width="4"/>
+      <path d="M-4,-8 a12,12 0 1,1 8,0 v16 a8,8 0 0,1 -8,8" fill="none" stroke="#A3A380" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <!-- Cœurs & étoiles -->
+    <g id="heart">
+      <path d="M0 10 C -6 2, -14 0, -16 6 C -18 12, -12 18, 0 26 C 12 18, 18 12, 16 6 C 14 0, 6 2, 0 10 Z"
+            fill="#FB6F92" opacity="0.55"/>
+    </g>
+    <g id="star">
+      <path d="M0,-10 L2.8,-2.8 L10,0 L2.8,2.8 L0,10 L-2.8,2.8 L-10,0 L-2.8,-2.8 Z"
+            fill="#FFB3C6" opacity="0.7"/>
+    </g>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="2400" height="720" fill="url(#bg)"/>
+
+  <!-- Vagues -->
+  <path d="M0,470 C280,510 560,480 840,510 C1120,540 1400,500 1680,520 C1960,540 2180,530 2400,545 L2400,720 L0,720 Z"
+        fill="url(#wave1)"/>
+  <path d="M0,560 C320,540 640,570 960,555 C1280,540 1600,585 1920,565 C2140,552 2270,565 2400,575 L2400,720 L0,720 Z"
+        fill="url(#wave2)"/>
+
+  <!-- Icônes côté droit -->
+  <g transform="translate(1970,160)" opacity="0.9">
+    <use href="#icon-envelope"/>
+  </g>
+  <g transform="translate(2090,160)" opacity="0.9">
+    <use href="#icon-instagram"/>
+  </g>
+  <g transform="translate(2210,160)" opacity="0.9">
+    <use href="#icon-goodreads"/>
+  </g>
+
+  <!-- Cœurs & étoiles disséminés -->
+  <g opacity="0.7">
+    <use href="#heart" transform="translate(220,160) scale(1.1)"/>
+    <use href="#star"  transform="translate(380,120) rotate(15)"/>
+    <use href="#heart" transform="translate(620,190) scale(0.9) rotate(-8)"/>
+    <use href="#star"  transform="translate(820,140) rotate(-10)"/>
+    <use href="#heart" transform="translate(1180,130) scale(1.2) rotate(6)"/>
+    <use href="#star"  transform="translate(1460,170) rotate(22)"/>
+  </g>
+
+  <!-- Ruban olive discret -->
+  <path d="M0,380 C420,350 820,410 1200,380 C1630,345 2010,405 2400,375"
+        fill="none" stroke="#A3A380" stroke-width="4" stroke-linecap="round" opacity="0.35" filter="url(#soft)"/>
+</svg>

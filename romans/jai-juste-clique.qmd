@@ -1,0 +1,78 @@
+---
+title: "J’ai juste cliqué !"
+description: "Une histoire d’amour née sur la toile… avec tout ce que cela implique."
+image: ../images/couvertures/jai-juste-clique.jpg
+date: 2024-05-25
+categories: [Romance contemporaine, Internet, Faux semblants]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/4ciKBb3"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter J’ai juste cliqué ! sur Amazon">
+     Acheter
+  </a>
+  <!--
+  <a class="btn btn-secondary"
+     href="#"
+     role="button"
+     aria-label="Lire un extrait de J’ai juste cliqué !">
+     Lire un extrait
+  </a>-->
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/j-ai-juste-clique.jpg" alt="Couverture — J’ai juste cliqué !">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Une histoire d’amour qui prend naissance sur la toile… avec tout ce que cela implique !**
+
+Adam est un connaisseur en amour. Bon nombre de ses lectrices le qualifient même d'expert et pour cause : le jeune homme connaît depuis quelques années un succès fulgurant dans le monde de la romance contemporaine. Les histoires d'amour, il sait parfaitement comment les fabriquer afin de contenter un lectorat qu'il croit acquis définitivement.
+
+À tort.
+
+Contre toute attente, son éditrice lui refuse son dernier manuscrit. Elle donne pourtant un conseil à l'écrivain déboussolé. Adam doit aller chercher en lui-même la source de son inspiration sans avoir le besoin obsessionnel de plaire. Elle l'inscrit à un partenariat avec un célèbre site de rencontre. Sa petite amie le quitte le même jour. Quelque temps après, n'ayant plus rien à perdre, Adam choisit de s'inscrire sur le fameux site afin de raconter dans son futur roman l'histoire d'amour qu'il souhaite avoir au plus vite. 
+
+Au fil des clics, il fait la connaissance d'Ysé avec qui le courant semble passer parfaitement. Peu à peu, leur attirance prend vie. Adam n'en perd pas une miette et raconte tout dans sa nouvelle histoire.  
+Pourtant, le jeune homme comprendra que tout ce qui se trouve sur le net n'est pas inoffensif et que les sentiments, eux, ne restent jamais longtemps virtuels...
+
+Parviendra-t-il à ne pas se perdre dans l'univers des faux semblants ?
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

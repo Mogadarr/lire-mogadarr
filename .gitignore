@@ -1,0 +1,58 @@
+# ==============================
+# Quarto / R / VSCode .gitignore
+# ==============================
+
+# --- Quarto ---
+/_site/
+.quarto/
+/.quarto-cache/
+*.html
+*.log
+*.tmp
+_quarto_internal_scss_error.scss
+# Ne pas ignorer le fichier spécifique
+!_includes/head-icons.html
+
+# --- R ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rprofile
+
+# --- Python (pré-traitement ou des scripts utils) ---
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# --- VSCode ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- Node (thèmes ou extensions JS) ---
+node_modules/
+package-lock.json
+yarn.lock
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build / Archives ---
+*.tar.gz
+*.zip
+*.Rproj
+*.bak
+*.old
+*.swp
+*.swo
+
+# --- GitHub Pages ---
+# Le dossier de publication (utilisation gh-pages)
+docs/
+
+/.quarto/
+**/*.quarto_ipynb

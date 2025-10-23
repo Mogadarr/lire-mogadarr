@@ -1,0 +1,86 @@
+---
+title: "Homme sérieux recherche poupée Bimbo pour Noël"
+description: "Une comédie romantique tendre et drôle où les apparences cachent parfois les plus beaux cadeaux."
+image: ../images/couvertures/poupee-bimbo.jpg
+date: 2024-12-05
+categories: [Romance de Noël, Comédie romantique, Famille, Feel-good]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/aBKWC5A"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Homme sérieux recherche poupée Bimbo pour Noël sur Amazon">
+     Acheter
+  </a>
+  <!--
+  <a class="btn btn-secondary"
+     href="#"
+     role="button"
+     aria-label="Lire un extrait de Homme sérieux recherche poupée Bimbo pour Noël">
+     Lire un extrait
+  </a>-->
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/poupee-bimbo.jpg" alt="Couverture — Homme sérieux recherche poupée Bimbo pour Noël">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Qui a dit que les poupées mannequins ne plaisaient qu'aux petites filles ?**
+
+David Daryse a une vie exemplaire.  
+Malgré son veuvage qui a autrefois détruit une partie de sa joie de vivre, il s'efforce de rester l'homme droit et intègre que tout le monde admire et apprécie.  
+Et puis surtout, David est un père de famille — et de quelle famille !  
+Tout le monde la nomme *« la tribu »* : Mathilda, Jean, Linaelle, Raphael et la petite Deva sont les enfants d'un David aimant et soucieux du bien-être de ses bambins malgré sa profession de banquier de plus en plus prenante.
+
+Seulement, quand sa nounou le lâche et qu'on lui propose un poste plus important, le jeune papa est écartelé entre ambition et devoir.  
+Il choisit de trouver au plus vite une remplaçante qui gardera sa progéniture pendant la formation qu'il suivra durant toute la période des mois de novembre et de décembre.
+
+Et c'est là qu'elle débarque.
+
+Blonde, forte poitrine, tenue rose bonbon aguichante, talons hauts et maquillage soutenu.  
+Pas d'erreur : Cassie Vincenzo est l'archétype de la poupée bimbo dont David a une sainte horreur.  
+Seulement, il n'a pas d'autre choix que de laisser cette femme étrange et toujours court vêtue s'occuper de sa *petite tribu*.  
+Il n'a pas d'autre choix que d'apprendre à la connaître et à reconnaître que sous ses apparences de grande idiote, Cassie est une femme rare, secrète et... **terriblement attirante.**
+
+David parviendra-t-il à ne pas se fier aux apparences ?
+
+Bonne nouvelle ! À Noël, tout est possible... enfin, on l’espère !
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

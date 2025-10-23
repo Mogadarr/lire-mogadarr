@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180" role="img" aria-labelledby="title desc">
+  <title id="title">Mo Gadarr — logo</title>
+  <desc id="desc">Wordmark with romantic heart/quill icon and elegant typography for the author Mo Gadarr.</desc>
+  <defs>
+    <style>
+      :root{
+        --logo-accent:#E91E63; /* rose */
+        --logo-text:#1F2937;   /* slate-800 */
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --logo-accent:#FF6FA3;
+          --logo-text:#F3F4F6; /* gray-100 */
+        }
+      }
+      .accent{fill:var(--logo-accent);stroke:var(--logo-accent);}
+      .text{fill:var(--logo-text);}
+    </style>
+    <!-- Subtle drop shadow for icon -->
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dx="0" dy="1" result="offset"/>
+      <feMerge>
+        <feMergeNode in="offset"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Icon: heart + quill nib -->
+  <g transform="translate(30,25)" filter="url(#soft-shadow)">
+    <!-- Heart -->
+    <path class="accent" d="M60 30
+                             C60 17 71 12 80 20
+                             C89 12 100 17 100 30
+                             C100 45 86 58 80 64
+                             C74 58 60 45 60 30 Z" opacity="0.95"/>
+    <!-- Quill stem -->
+    <path class="accent" d="M80 64 L114 98" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Nib (diamond) -->
+    <polygon class="accent" points="118,102 110,98 114,90 122,94" />
+    <!-- Nib hole -->
+    <circle cx="115.5" cy="95.5" r="2.2" fill="white" opacity="0.9"/>
+  </g>
+
+  <!-- Wordmark -->
+  <!-- You can swap fonts by editing font-family. These are common, elegant defaults. -->
+  <g class="text" transform="translate(180,92)">
+    <text x="0" y="0" font-family="Playfair Display, 'Times New Roman', Georgia, serif" font-size="56" font-weight="700" letter-spacing="0.5">
+      Mo Gadarr
+    </text>
+    <text x="3" y="34" font-family="'Great Vibes', 'Brush Script MT', 'Segoe Script', cursive" font-size="26" opacity="0.9">
+      New&nbsp;Romance&nbsp;Auteure
+    </text>
+  </g>
+
+  <!-- Delicate underline flourish -->
+  <path d="M182 112 C260 132, 360 132, 520 116" fill="none" stroke="var(--logo-accent)" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

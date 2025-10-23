@@ -1,0 +1,41 @@
+---
+title: "Mo Gadarr"
+subtitle: "Auteure de New Romance"
+description: "Site officiel — romans, nouveautés, événements."
+page-id: "accueil"
+title-block-banner: "images/hero-portrait-light.png"   # ← image directe
+page-layout: full
+toc: false
+body-classes: accueil
+---
+
+
+<!-- ===== HERO ===== -->
+<section style="margin: 0 0 1.25rem 0;">
+  <div class="badge-accent">Mo Gadarr ... Son univers</div>
+</section>
+
+
+<div class="portrait-card">
+  <img src="images/banner-mo-gadarr.png" alt="Mogadarr — portrait illustré">
+</div>
+
+
+
+::: hero
+# Nouveauté - dernier roman
+
+Romance de Noël au cœur des forêts canadiennes — une rencontre qui déjoue les apparences.
+
+[En savoir plus »](dernier-livre.qmd){.btn .btn-primary} [Lire un extrait »](romans/extraits/extrait-buche.qmd){.btn .btn-secondary}
+:::
+
+<br></br>
+
+::: hero
+# L'ensemble des romans
+
+Un espace pour explorer les romans écrits par Mo Gadarr et suivre son actualité. Ceci permet de (re)découvrir l'ensemble des oeuvres. C'est l'occasion de trouver ou retrouver une petite pépite.
+
+[Les romans »](romans/index.qmd){.btn .btn-primary}  [Lire le blog »](blog/index.qmd){.btn .btn-secondary}
+:::

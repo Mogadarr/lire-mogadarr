@@ -1,0 +1,24 @@
+<svg width="2400" height="900" viewBox="0 0 2400 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bandeau accueil — portrait (clair)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe5ec"/>
+      <stop offset="48%" stop-color="#FFF7F9"/>
+      <stop offset="100%" stop-color="#FFE5EC"/>
+    </linearGradient>
+    <clipPath id="blob">
+      <path d="M1720,200 C1920,180 2110,260 2190,380 C2270,500 2210,640 2060,720 C1910,800 1710,780 1550,690 C1390,600 1310,460 1370,360 C1430,260 1520,220 1720,200 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fond raccord navbar -->
+  <rect width="2400" height="900" fill="url(#bg)"/>
+
+  <!-- Portrait (ton image) inséré dans la forme -->
+  <g clip-path="url(#blob)" opacity="0.96">
+    <image href="banner-mo-gadarr.png" x="1340" y="120" width="880" height="920" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
+  <!-- Ondes abstraites rosées à gauche -->
+  <path d="M0,560 C320,520 640,600 960,560 C1280,520 1600,600 1920,560 L1920,900 L0,900 Z" fill="#FFB3C6" opacity="0.22"/>
+  <path d="M0,640 C320,620 640,660 960,640 C1280,620 1600,660 1920,640 L1920,900 L0,900 Z" fill="#FB6F92" opacity="0.16"/>
+</svg>

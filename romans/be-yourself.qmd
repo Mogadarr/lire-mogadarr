@@ -1,0 +1,77 @@
+---
+title: "Be Yourself"
+description: "Une romance sur l’acceptation, la confiance et l’amour de soi — le dernier volet de la trilogie Be."
+image: ../images/couvertures/be-yourself.jpg
+date: 2024-06-30
+categories: [Romance contemporaine, Body positive, Reconstruction]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Éditeur</strong> : Black Ink Éditions</li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 14 €</li>
+    <li><strong>Relié</strong> : 18 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/eiPg5oo" 
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Be Yourself sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="#"
+     role="button"
+     aria-label="Lire un extrait de Be Yourself">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/be-yourself.jpg" alt="Couverture — Be Yourself">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Be Yourself — RÉÉDITION DU TITRE "T'AS QU'À MAIGRIR"**
+
+Slim pensait avoir tiré un trait sur son passé.  
+Après avoir affronté ses doutes, ses blessures et ses kilos, elle aspire à une vie plus douce, à l’image de celle qu’elle est enfin devenue : une femme libre et assumée.
+
+Mais la liberté, ça se cultive.  
+Entre un nouveau départ professionnel, des relations qui se redéfinissent et un cœur encore fragile, Slim va découvrir qu’être soi-même n’est pas un point d’arrivée, mais un chemin.  
+Et si la clé du bonheur n’était pas dans le regard des autres, mais dans la manière dont on choisit de se voir soi-même ?
+
+Dans ce dernier volet, Mo Gadarr livre une romance sincère, vibrante et pleine de bienveillance — une ode à l’amour de soi et à la résilience.
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

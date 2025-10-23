@@ -1,0 +1,70 @@
+---
+title: "Be Stronger"
+description: "Réédition du titre « T’as qu’à maigrir » — une romance sur l’acceptation, la force et l’amour de soi."
+image: ../images/couvertures/be-stronger.jpg
+date: 2024-06-15
+categories: [Romance contemporaine, Body positive, Seconde chance]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Éditeur</strong> : Black Ink (réédition)</li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 14 €</li>
+    <li><strong>Relié</strong> : 18 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~320 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/eWEGo3z" 
+     target="_blank" role="button" aria-label="Acheter Be Stronger sur Amazon">
+     Acheter
+  </a>
+
+</div>
+<br></br>
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/be-stronger.jpg" alt="Couverture — Be Stronger">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Be Stronger — RÉÉDITION DU TITRE "T'AS QU'À MAIGRIR"**
+
+Slim est une épicurienne, mais elle n’aurait jamais pensé regretter aussi amèrement son dernier craquage.  
+Elle qui était convaincue de détester Ulrich, la voilà qui vient de succomber à son charme ravageur !
+
+Il est pourtant son coach sportif, son nutritionniste et surtout, il reste ce connard de première.  
+Depuis cette incartade, ce dernier est encore plus renfrogné, encore plus énigmatique que d’ordinaire.  
+En même temps, c’est la première fois qu’il est attiré par une femme telle que Slim. Une ronde.
+
+Mais au fond, Ulrich est-il vraiment le grossophobe maniaque que Slim s’imagine ?  
+Il y a bien des choses qui se cachent sous les apparences...
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>

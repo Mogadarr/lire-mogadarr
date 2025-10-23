@@ -1,0 +1,82 @@
+---
+title: "Noël, coups bas et Secret Santa"
+description: "Un défi de Noël, une prime à gagner, et une attirance impossible à ignorer…"
+image: ../images/couvertures/noel-coups-bas.jpg
+date: 2024-12-10
+categories: [Romance de Noël, Enemies to Lovers, Bureau, Feel-good]
+title-block-banner: true
+page-layout: full
+toc: false
+---
+
+<!-- ===== 1) FORMATS & PRIX EN PREMIER ===== -->
+<section class="formats-prix-modern">
+
+<div class="prix-left">
+  <h3>Formats & prix</h3>
+  <ul>
+    <li><strong>Autoédition</strong></li>
+    <li><strong>Ebook</strong> : 2,99 €</li>
+    <li><strong>Broché</strong> : 13 €</li>
+    <li><strong>Relié</strong> : 17 €</li>
+    <li><strong>Abonnement Kindle</strong></li>
+    <li>~330 pages</li>
+  </ul>
+</div>
+
+<div class="prix-right">
+  <a class="btn btn-primary"
+     href="https://amzn.eu/d/g3qtIxi"
+     target="_blank" rel="noopener noreferrer" role="button" aria-label="Acheter Noël, coups bas et Secret Santa sur Amazon">
+     Acheter
+  </a>
+  <a class="btn btn-secondary"
+     href="https://mogadarr.github.io/lire-mogadarr/romans/extraits/extrait-noel-coups-bas.html"
+     role="button"
+     aria-label="Lire un extrait de Noël, coups bas et Secret Santa">
+     Lire un extrait
+  </a>
+  <br></br>
+</div>
+
+</section>
+
+<!-- ===== 2) DEUX COLONNES (PHOTO À GAUCHE, TEXTE À DROITE) ===== -->
+<section class="book-two-col reverse">
+
+<div class="book-cover">
+  <img src="../images/couvertures/noel-coups-bas.jpg" alt="Couverture — Noël, coups bas et Secret Santa">
+</div>
+
+<div class="resume">
+
+## Résumé
+
+**Noël. De l'argent à gagner. Une attirance irrépressible.**
+
+Sab est une jeune femme pétillante et pleine de vie.  
+C’est pour cela qu’elle occupe le poste de community manager chez **Linky Toys**, un très célèbre fabriquant de jouets.  
+Dans cette boîte, Noël, c’est sacré et le patron l’a bien compris.  
+Pour dynamiser encore plus l’atmosphère de cette fin d’année au sein de son entreprise, il choisit de mettre le personnel au défi :  
+faire briller la société sous les mille feux de Noël, grâce aux idées lumineuses des collègues — qui deviennent très vite des concurrents.  
+Il faut dire que **la prime de 10 000 euros** à remporter a de quoi faire tourner les têtes.
+
+Alors, c’est parti !  
+Sabine se lance à corps perdu dans ce jeu qui en vaut plus que la chandelle.  
+Elle ne renonce devant rien pour sortir victorieuse de cette compétition.  
+Dean, son collègue aussi mystérieux que lugubre, est lui aussi de la partie.  
+Et si Sab pense le battre à plates coutures, c’est bien mal le connaître.  
+Les lutins de Noël ne se feront pas de cadeaux cette année, surtout si entre Sab et le bel américain austère une **attirance irrépressible** vient progressivement envenimer la situation...
+
+Êtes-vous prêts pour un **Noël aussi tendu que sensuel** ?
+
+</div>
+
+</section>
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../romans/index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux Romans
+  </a>
+</div>
