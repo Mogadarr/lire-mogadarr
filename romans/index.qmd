@@ -76,13 +76,7 @@ Partez à la découverte des séries, des comédies de Noël, des romances de sa
 :::
 :::
 
-::: {.group-slab data-cat="coecrits"}
-#### 𓂃🖋 Coécrits ♡✎
-::: {.roman-pills}
-[Blind (coécrit)](blind.qmd){.pill}
-[Hurt (coécrit)](hurt.qmd){.pill}
-:::
-:::
+
 
 :::
 
