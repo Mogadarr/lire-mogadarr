@@ -40,4 +40,11 @@ L’intrigue se passe en un mois et demi (novembre-décembre)
 -    Savourer l’histoire d’un homme qui a des qualités de cœur incroyable. Un vrai green flag sur pattes
 -    Prendre le temps de réfléchir à la magie de Noël et à la force du pardon. 
 
+     
 
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux articles de blog
+  </a>
+</div>

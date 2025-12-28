@@ -212,11 +212,11 @@ PHOTO 1 (IMAGE D’OUVERTURE) : l’image s’insère simplement sous le titre.
 
 Les fêtes sont productives !
 
-En tant que prof, je bénéficie de deux semaines de vacances toutes les cinq ou sept semaines. Si la majeure partie de cette période est consacrée aux corrections de copies et à la construction de mes cours, je laisse toujours une part très importante à l’écriture. Cependant, les vacances de Noël sont particulières. Les fêtes prennent beaucoup de place et c’est une vraie difficulté d’écrire. J’ai eu la chance de terminer le manuscrit de Prends de la bûche ! avant cette période, ce qui fait que c’est la tête pleine de lumières que j’ai commencé l’écriture de ma prochaine histoire.
+En tant que prof, je bénéficie de deux semaines de vacances toutes les cinq ou sept semaines. Si la majeure partie de cette période est consacrée aux corrections de copies et à la construction de mes cours, je laisse toujours une part très importante à l’écriture. Cependant, les vacances de Noël sont particulières. Les fêtes prennent beaucoup de place et c’est une vraie difficulté d’écrire. J’ai eu la chance de terminer le manuscrit de **`Prends de la bûche !`** avant cette période, ce qui fait que c’est la tête pleine de lumières que j’ai commencé l’écriture de ma prochaine histoire.
 
 ## Une histoire très sombre
 
-J’ai laissé teaser quelques indices sur mes réseaux sociaux mais je ne peux pas parler directement de cette histoire. Tout ce que je peux dire, c’est que ce roman fête les dix ans de ma carrière d’écrivaine et que cette intrigue est aussi sombre que Black Feelings, mon tout premier roman paru chez Hugo Publishing.
+J’ai laissé teaser quelques indices sur mes réseaux sociaux mais je ne peux pas parler directement de cette histoire. Tout ce que je peux dire, c’est que **ce roman fête les dix ans de ma carrière d’écrivaine** et que cette intrigue est aussi sombre que **`Black Feelings`**, mon tout premier roman paru chez `Hugo Publishing .
 
 Le thème est fort et sombre. Comme ceux qui me lisent le savent, désormais, tout peut arriver à mes personnages. Je vais aller au-delà de la romance pour parler d’une histoire prenante, réaliste et poignante.
 
@@ -235,7 +235,7 @@ PHOTO 2 (CARTE MEDIA) : /images/blog/2025-12-28-fetes-productives-02.png
   </figure>
 
   <div class="moga-media-card__body">
-    <p class="moga-media-card__kicker">Note d’autrice</p>
+    <p class="moga-media-card__kicker">Note d’auteure</p>
     <p class="moga-media-card__quote">« Désormais, tout peut arriver à mes personnages. »</p>
     <p class="moga-media-card__hint">Un roman anniversaire, une intensité assumée — et une sortie qui se précise.</p>
   </div>
@@ -252,3 +252,10 @@ Je vous laisse avec cette information. Passez d’excellentes fêtes de fin d’
   <p class="moga-signoff__text">Merci de votre lecture ✨</p>
 </footer>
 ```
+
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux articles de blog
+  </a>
+</div>

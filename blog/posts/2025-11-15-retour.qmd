@@ -20,3 +20,11 @@ Et me voilà de retour dans mon blog ! Je viens d’enchaîner la rentrée et su
 Je pense qu’il ne faut pas hésiter à chiner dans ces salons, même quand on se dit qu’on ne va pas trouver ce qu’on aime lire. Les découvertes sont très intéressantes. J’y ai acheté le livre `Héritage` de **Benito Sanchez**. Moi qui adore Stephen King, on est plongé dans un univers à la Shining des plus flippants. Je vous dirai ce que j’en ai pensé.
 
 Aujourd’hui, je suis heureuse ! Je viens de recevoir une très belle nouvelle dont je vous reparlerai par la suite…
+     
+     
+<!-- ===== 3) RETOUR ===== -->
+<div class="back-home">
+  <a href="../index.qmd" class="btn-back" role="button" aria-label="Retour aux Romans">
+    <span class="arrow">←</span> Retour aux articles de blog
+  </a>
+</div>
