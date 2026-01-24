@@ -6,6 +6,21 @@ description: "Annonce de la duologie AT — exclusivité au salon Love story à 
 image: ../../images/blog/AT_blog.png 
 ---
 
+::: {.nr-cover-feature}
+![](../../images/couvertures/AT_couverture.PNG){.nr-cover-img alt="Couverture — AT (tome 1)"}
+
+<div class="nr-cover-meta">
+<span class="nr-badge">Nouvelle duologie</span>
+
+### AT — Tome 1
+
+Une romance dure, sombre et tellement… ordinaire.
+</div>
+:::
+
+<br>
+
+
 # Une duologie à paraitre : **`"AT"`**
 
 Je vous avais promis une toute nouvelle histoire et c’est chose faite. Cette fois, nous avons affaire à une romance dure, sombre et tellement…ordinaire. **Athénaïs**, c’est la femme qu’on a été, qu’on a croisée, notre mère, notre amie, notre fille. `AT`, c’est nous toutes parce que ce qui va lui arriver peut arriver à toutes les femmes. Nous allons suivre cette héroïne sur plusieurs années et nous allons aimer, vivre et souffrir avec elle. Je vous laisse découvrir la couverture du tome 1 ainsi que le résumé. Le livre sera vendu en exclusivité au salon Love story à Mons, en Belgique, du 21 au 22 mars 2026. J’espère que mon héroïne vous marquera à jamais.
