@@ -2434,3 +2434,51 @@ body.quarto-dark .nr-cover-img{
   border-color: rgba(255,255,255,.10);
   box-shadow: 0 22px 56px rgba(0,0,0,.50);
 }
+
+
+/* =========================================================
+   PATCH MOBILE — cover AT plus "premium"
+   ========================================================= */
+@media (max-width: 600px){
+
+  .nr-cover-feature{
+    padding: .85rem;
+    gap: .85rem;
+    border-radius: 18px;
+  }
+
+  /* Image : centrée + largeur optimale + rendu couverture */
+  .nr-cover-feature .nr-cover-img{
+    width: min(92%, 360px);
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 22px 60px rgba(0,0,0,.22);
+  }
+
+  /* Meta : centré, typographie plus "hero" */
+  .nr-cover-meta{
+    text-align: center;
+    padding: .1rem .2rem .25rem;
+  }
+
+  .nr-badge{
+    margin: 0 auto .55rem;
+  }
+
+  .nr-cover-meta h3{
+    font-size: 1.55rem;
+    line-height: 1.1;
+  }
+
+  .nr-cover-meta p{
+    font-size: 1.03rem;
+    line-height: 1.55;
+  }
+}
+
+/* Dark mode mobile : ombre un peu plus douce */
+@media (max-width: 600px){
+  body.quarto-dark .nr-cover-feature .nr-cover-img{
+    box-shadow: 0 24px 70px rgba(0,0,0,.55);
+  }
+}
