@@ -1434,3 +1434,883 @@ body.quarto-dark.blog-home .quarto-title-block .quarto-title-banner{
   background-image: url("../images/hero-blog-dark.svg") !important;
 }
 
+/* =========================================================
+   COEURS TRÈS VISIBLES (rose + vert) UNIQUEMENT DANS LES CARDS
+   ========================================================= */
+
+.actu-card{
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Ajuste ici le rose et le vert si besoin */
+.actu-card.hearts{
+  --heart-pink: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23ff4fa3' d='M32 54s-18-11.3-24-22.6C3.7 23.5 7.7 16 15.4 15.4c4-.3 7.7 1.8 9.7 5.2 2-3.4 5.7-5.5 9.7-5.2C42.3 16 46.3 23.5 56 31.4 50 42.7 32 54 32 54z'/%3E%3C/svg%3E");
+  --heart-green: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%236b8f7a' d='M32 54s-18-11.3-24-22.6C3.7 23.5 7.7 16 15.4 15.4c4-.3 7.7 1.8 9.7 5.2 2-3.4 5.7-5.5 9.7-5.2C42.3 16 46.3 23.5 56 31.4 50 42.7 32 54 32 54z'/%3E%3C/svg%3E");
+}
+
+/* Base commune des coeurs */
+.actu-card.hearts::before,
+.actu-card.hearts::after{
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0.32;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.10));
+}
+
+/* COEUR 1 : rose (haut gauche) — TRÈS GRAND */
+.actu-card.hearts::before{
+  width: 52px; height: 52px;
+  top: 14px; left: 14px;
+  background-image: var(--heart-pink);
+  transform: rotate(-14deg);
+}
+
+/* COEUR 2 : vert (bas droit) — GRAND */
+.actu-card.hearts::after{
+  width: 44px; height: 44px;
+  bottom: 14px; right: 14px;
+  background-image: var(--heart-green);
+  transform: rotate(12deg);
+  opacity: 0.26;
+}
+
+/* On ancre d'autres coeurs sur des zones internes */
+.actu-card.hearts .callout-title-container,
+.actu-card.hearts .callout-body{
+  position: relative;
+}
+
+/* COEUR 3 : rose (près du titre, côté droit) — GRAND */
+.actu-card.hearts .callout-title-container::before{
+  content: "";
+  position: absolute;
+  width: 46px; height: 46px;
+  top: -10px; left: 68%;
+  background-image: var(--heart-pink);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.20;
+  transform: rotate(-24deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+/* COEUR 4 : vert (dans le texte, côté gauche) — MOYEN/GRAND */
+.actu-card.hearts .callout-title-container::after{
+  content: "";
+  position: absolute;
+  width: 34px; height: 34px;
+  top: 54px; left: 6%;
+  background-image: var(--heart-green);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  transform: rotate(10deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+/* COEUR 5 : rose (près du bouton) — GRAND
+   (supprime ce bloc si tu n'en veux que 4) */
+.actu-card.hearts .callout-body::after{
+  content: "";
+  position: absolute;
+  width: 40px; height: 40px;
+  bottom: 6px; right: 34%;
+  background-image: var(--heart-pink);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  transform: rotate(-10deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+
+/* ====== ACTUS : mêmes hauteurs + titres plus grands ====== */
+
+/* Chaque colonne devient un conteneur flex pour étirer la card */
+.actus-grid > .g-col-12{
+  display: flex;
+}
+
+/* La card prend toute la hauteur disponible */
+.actus-grid .actu-card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Le corps du callout s'étire pour pousser les boutons en bas */
+.actus-grid .actu-card .callout-body{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Boutons en bas, alignés, avec retour à la ligne si besoin */
+.actus-grid .actu-card .callout-body p:last-child{
+  margin-top: auto;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+/* Titres plus grands (et un peu plus “hero”) */
+.actus-grid .actu-card .callout-title-container{
+  font-size: 1.45rem;     /* augmente la taille du titre */
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+/* Un peu d'air entre titre et texte */
+.actus-grid .actu-card .callout-title-container + .callout-body{
+  padding-top: 0.35rem;
+}
+
+
+/* Force l’accent rose sur une callout, même si le thème change */
+.pink-accent{
+  border-left: 6px solid #ff4fa3 !important; /* rose */
+}
+
+/* Évite que Quarto applique des couleurs type warning */
+.pink-accent.callout{
+  --callout-color: #ff4fa3;
+}
+
+
+/* Enlève la bordure grise des callouts (cards) */
+.actu-card{
+  border: none !important;
+}
+
+/* Certains thèmes mettent aussi une bordure sur l'élément interne */
+.actu-card.callout{
+  border: none !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08); /* garde un relief doux */
+}
+
+/* Enlève la ligne sous le titre "Actualités" uniquement */
+.actus-section h2{
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.75rem; /* garde un peu d'air */
+}
+
+
+/* ===== Boutons côte à côte (desktop) / empilés (mobile) ===== */
+.btn-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .6rem;
+  flex-wrap: nowrap;        /* desktop: sur une ligne */
+}
+
+/* si ton thème force les boutons à 100%, on neutralise dans .btn-row */
+.btn-row .btn{
+  width: auto;
+}
+
+/* mobile: empilement propre */
+@media (max-width: 576px){
+  .btn-row{
+    flex-direction: column;
+    align-items: stretch;   /* boutons pleine largeur */
+    flex-wrap: wrap;
+  }
+  .btn-row .btn{
+    width: 100%;
+    text-align: center;
+  }
+}
+/* ===== Boutons: ligne sur desktop, pleine largeur sur mobile ===== */
+
+.btn-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .6rem;
+  flex-wrap: nowrap;      /* desktop: côte à côte */
+  margin: 0;              /* évite marges parasites */
+}
+
+/* Neutralise marges éventuelles du thème sur les boutons */
+.btn-row .btn{
+  margin: 0 !important;
+}
+
+/* Mobile: empiler + pleine largeur + espacement réduit */
+@media (max-width: 576px){
+  .btn-row{
+    flex-direction: column;
+    align-items: stretch; /* permet le 100% */
+    gap: .35rem;          /* moins d'espace vertical */
+  }
+
+  .btn-row .btn{
+    display: block;       /* IMPORTANT: force l'étirement */
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px){
+  .actu-card .callout-body{
+    width: 100%;
+  }
+}
+
+/* ========== Boutons dans les cards: desktop côte à côte / mobile pleine largeur ========== */
+
+.btn-row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: nowrap;
+  margin-top: .75rem;
+}
+
+/* évite les marges verticales imposées par le thème */
+.btn-row .btn{
+  margin: 0 !important;
+}
+
+/* IMPORTANT: si tu avais une règle qui cible p:last-child pour pousser les boutons,
+   elle crée le "trou". On neutralise ça dans les cards d'actus. */
+.actus-grid .actu-card .callout-body p:last-child{
+  margin-top: 0 !important;
+}
+
+/* Mobile: empiler proprement et prendre toute la largeur */
+@media (max-width: 576px){
+  .btn-row{
+    flex-direction: column;
+    align-items: stretch;
+    gap: .35rem;          /* moins d'espace vertical */
+    width: 100%;
+  }
+
+  .btn-row .btn{
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    text-align: center;
+  }
+}
+
+.actus-grid .actu-card .callout-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.actus-grid .actu-card .btn-row{
+  margin-top: auto; /* pousse les DEUX boutons ensemble vers le bas */
+}
+
+.headline-romance{
+  background: #FFF2F5;
+  border: 1px solid rgba(251,111,146,.35);
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  box-shadow: 0 10px 26px rgba(0,0,0,.06);
+}
+body.quarto-dark .headline-romance{
+  background: #2b2f31;
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 12px 28px rgba(0,0,0,.35);
+}
+
+
+/* ===== Headline "New Romance" (plus original) ===== */
+.headline-romance-pro{
+  position: relative;
+  padding: 1.15rem 1.25rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(251,111,146,.20), rgba(163,163,128,.18));
+  border: 1px solid rgba(251,111,146,.25);
+  box-shadow: 0 14px 34px rgba(0,0,0,.08);
+  font-weight: 800;
+  font-size: 1.18rem;
+  line-height: 1.55;
+  letter-spacing: .2px;
+  overflow: hidden;
+}
+
+/* petite barre “signature” */
+.headline-romance-pro::before{
+  content:"";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  background: linear-gradient(to bottom, #FB6F92, #A3A380);
+  opacity: .95;
+}
+
+/* effet “glow” doux */
+.headline-romance-pro::after{
+  content:"";
+  position: absolute;
+  inset: -40% -30% auto -30%;
+  height: 180px;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.55), rgba(255,255,255,0) 60%);
+  transform: rotate(8deg);
+  pointer-events: none;
+}
+
+/* Badge */
+.headline-romance-pro .hrp-badge{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.70);
+  border: 1px solid rgba(163,163,128,.35);
+  font-weight: 800;
+  font-size: .85rem;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  margin-right: .55rem;
+}
+
+/* Dark mode */
+body.quarto-dark .headline-romance-pro{
+  background: linear-gradient(135deg, rgba(251,111,146,.16), rgba(163,163,128,.14));
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 18px 44px rgba(0,0,0,.35);
+}
+body.quarto-dark .headline-romance-pro .hrp-badge{
+  background: rgba(43,47,49,.65);
+  border-color: rgba(255,255,255,.12);
+  color: #E8ECEE;
+}
+
+/* ===== FIX ALIGNEMENT BOUTONS EN BAS DANS LA GRILLE ACTUS ===== */
+
+/* 1) Les items de la grille doivent s'étirer */
+.actus-grid{
+  align-items: stretch;
+}
+
+/* 2) Chaque colonne/item devient flex pour donner une "hauteur" à la card */
+.actus-grid > *{
+  display: flex;
+}
+
+/* 3) La card occupe toute la hauteur de sa colonne */
+.actus-grid .actu-card{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 4) Le body s'étire et organise contenu + boutons */
+.actus-grid .actu-card .callout-body{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 5) Le bloc boutons descend en bas (même si 1 seul bouton) */
+.actus-grid .actu-card .btn-row{
+  margin-top: auto;
+}
+
+/* =========================================================
+   TITRE "ACTUALITÉS" — New Romance, accrocheur et moderne
+   ========================================================= */
+
+.actus-heading{
+  margin: 1.6rem 0 1.1rem;
+  position: relative;
+}
+
+.actus-kicker{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .28rem .7rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(251,111,146,.25);
+  font-weight: 800;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  font-size: .85rem;
+  color: #4A5759;
+}
+
+.actus-title{
+  margin: .35rem 0 .25rem;
+  font-size: clamp(2.4rem, 4.2vw, 3.6rem); /* + grand qu’un H1 */
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -.6px;
+  color: var(--earth-900);
+  position: relative;
+  display: inline-block;
+}
+
+/* Soulignement dégradé (rose -> vert) + effet “signature” */
+.actus-title::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -.18rem;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(251,111,146,.95), rgba(163,163,128,.95));
+  opacity: .35;
+}
+
+/* petit glow rose doux derrière le titre */
+.actus-heading::before{
+  content:"";
+  position:absolute;
+  left: -10px;
+  top: -18px;
+  width: 220px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 40%, rgba(251,111,146,.35), rgba(251,111,146,0) 70%);
+  filter: blur(2px);
+  pointer-events: none;
+}
+
+/* Sous-titre */
+.actus-subtitle{
+  margin: .15rem 0 0;
+  max-width: 68ch;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #4A5759;
+}
+
+/* Dark mode */
+body.quarto-dark .actus-kicker{
+  background: rgba(43,47,49,.70);
+  border-color: rgba(255,255,255,.12);
+  color: #E8ECEE;
+}
+body.quarto-dark .actus-title{
+  color: #ffffff;
+}
+body.quarto-dark .actus-subtitle{
+  color: rgba(232,236,238,.85);
+}
+body.quarto-dark .actus-heading::before{
+  background: radial-gradient(circle at 30% 40%, rgba(251,111,146,.22), rgba(251,111,146,0) 70%);
+}
+
+/* =========================
+   New Romance — Duo vidéos
+   ========================= */
+
+.nr-video-hero{
+  margin: 1.1rem 0 1.6rem;
+  padding: 1rem 1rem 1.1rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(251,111,146,.16), rgba(163,163,128,.14));
+  border: 1px solid rgba(251,111,146,.18);
+  box-shadow: 0 14px 34px rgba(0,0,0,.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* petit “glow” doux */
+.nr-video-hero::before{
+  content:"";
+  position:absolute;
+  inset: -60px -80px auto -80px;
+  height: 200px;
+  background: radial-gradient(circle at 25% 35%, rgba(255,255,255,.55), rgba(255,255,255,0) 60%);
+  transform: rotate(6deg);
+  pointer-events: none;
+}
+
+.nr-video-head{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .9rem;
+  margin-bottom: .75rem;
+}
+
+.nr-pill{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .28rem .7rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.70);
+  border: 1px solid rgba(163,163,128,.28);
+  font-weight: 800;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  font-size: .82rem;
+  color: #4A5759;
+}
+
+.nr-title{
+  font-weight: 900;
+  letter-spacing: -.4px;
+  font-size: 1.15rem;
+  color: var(--earth-900);
+  opacity: .95;
+}
+
+.nr-video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .9rem;
+}
+
+.nr-video-card{
+  margin: 0;
+  border-radius: 16px;
+  background: rgba(255,255,255,.72);
+  border: 1px solid rgba(255,255,255,.65);
+  box-shadow: 0 10px 24px rgba(0,0,0,.06);
+  overflow: hidden;
+}
+
+.nr-video{
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  object-fit: cover;
+}
+
+.nr-caption{
+  padding: .55rem .75rem .65rem;
+  font-weight: 700;
+  font-size: .95rem;
+  color: #4A5759;
+}
+
+/* Mobile: stack */
+@media (max-width: 800px){
+  .nr-video-head{ flex-direction: column; align-items: flex-start; }
+  .nr-video-grid{ grid-template-columns: 1fr; }
+}
+
+/* Dark mode */
+body.quarto-dark .nr-video-hero{
+  background: linear-gradient(135deg, rgba(251,111,146,.14), rgba(163,163,128,.12));
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 18px 44px rgba(0,0,0,.35);
+}
+body.quarto-dark .nr-pill{
+  background: rgba(43,47,49,.62);
+  border-color: rgba(255,255,255,.12);
+  color: #E8ECEE;
+}
+body.quarto-dark .nr-title{ color: #ffffff; }
+body.quarto-dark .nr-video-card{
+  background: rgba(43,47,49,.70);
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 16px 34px rgba(0,0,0,.38);
+}
+body.quarto-dark .nr-caption{ color: rgba(232,236,238,.88); }
+
+/* =========================================================
+   NEW ROMANCE VIDEO — rotation portrait + ratio propre
+   ========================================================= */
+
+/* Base : on ne force PAS un ratio sur <video>, on le met sur la card */
+.nr-video-card{
+  position: relative;
+  overflow: hidden;
+}
+
+/* Zone vidéo: ratio par défaut (paysage) */
+.nr-video-card .nr-video{
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+/* On crée un cadre “cinéma” via aspect-ratio sur la card */
+.nr-video-card{
+  border-radius: 16px;
+}
+.nr-video-card video.nr-video{
+  border-radius: 0; /* évite double radius sur certains navigateurs */
+}
+
+/* ---- Fix : portrait “couché” -> on force la rotation sur ce seul item ---- */
+/* 1) On donne un ratio portrait au conteneur vidéo */
+.nr-video-card.nr-portrait-rotated{
+  aspect-ratio: 9 / 16;
+  background: #000;
+}
+
+/* 2) La vidéo remplit le cadre, centrée, puis on la tourne */
+.nr-video-card.nr-portrait-rotated .nr-video{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* rotation + centrage */
+  transform: rotate(90deg) scale(1.02);
+  transform-origin: center;
+}
+
+/* 3) Comme on passe la vidéo en absolute, on garde la caption en bas */
+.nr-video-card .nr-caption{
+  position: relative;
+  z-index: 2;
+  padding: .55rem .75rem .65rem;
+}
+
+/* 4) Pour les cards “normales” (paysage), on force un ratio cinéma clean */
+.nr-video-card:not(.nr-portrait-rotated){
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+.nr-video-card:not(.nr-portrait-rotated) .nr-video{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+}
+
+/* 5) Caption lisible sur fond vidéo (très UI) */
+.nr-caption{
+  margin: 0;
+  font-weight: 700;
+  font-size: .95rem;
+  color: #4A5759;
+  background: rgba(255,255,255,.72);
+  border-top: 1px solid rgba(255,255,255,.65);
+  backdrop-filter: blur(6px);
+}
+
+/* Dark mode caption */
+body.quarto-dark .nr-caption{
+  color: rgba(232,236,238,.88);
+  background: rgba(43,47,49,.65);
+  border-top-color: rgba(255,255,255,.10);
+}
+
+/* Mobile: on évite que le portrait prenne trop de hauteur */
+@media (max-width: 800px){
+  .nr-video-card.nr-portrait-rotated{
+    aspect-ratio: 10 / 16; /* un poil moins haut que 9/16 */
+  }
+}
+
+
+/* =========================================================
+   New Romance — Story Video (tabs) : premium + clean
+   ========================================================= */
+
+.nr-video-story{
+  margin: 1.2rem 0 1.9rem;
+  padding: 1rem 1rem 1.05rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(251,111,146,.12), rgba(163,163,128,.10));
+  border: 1px solid rgba(251,111,146,.16);
+  box-shadow: 0 18px 44px rgba(0,0,0,.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.nr-video-story::before{
+  content:"";
+  position:absolute;
+  inset:-90px -120px auto -120px;
+  height: 220px;
+  background: radial-gradient(circle at 25% 35%, rgba(255,255,255,.55), rgba(255,255,255,0) 62%);
+  transform: rotate(6deg);
+  pointer-events:none;
+}
+
+.nr-story-head{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .9rem;
+  margin: .1rem 0 .8rem;
+}
+
+.nr-story-badge{
+  display:inline-flex;
+  align-items:center;
+  padding:.28rem .72rem;
+  border-radius:999px;
+  background: rgba(255,255,255,.72);
+  border:1px solid rgba(163,163,128,.26);
+  font-weight:800;
+  letter-spacing:.55px;
+  text-transform:uppercase;
+  font-size:.82rem;
+  color:#4A5759;
+}
+
+.nr-story-title{
+  font-weight: 900;
+  letter-spacing: -.4px;
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  color: var(--earth-900);
+  opacity: .95;
+}
+
+/* Tabs (radio hidden) */
+.nr-tab{ position:absolute; left:-9999px; }
+
+/* Tab bar */
+.nr-tabbar{
+  display:flex;
+  gap:.5rem;
+  margin: .2rem 0 .85rem;
+  flex-wrap: wrap;
+}
+
+.nr-chip{
+  cursor:pointer;
+  user-select:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.42rem .8rem;
+  border-radius:999px;
+  border:1px solid rgba(163,163,128,.30);
+  background: rgba(255,255,255,.60);
+  font-weight:800;
+  font-size:.92rem;
+  color:#4A5759;
+  transition: transform .18s ease, background .18s ease, border-color .18s ease;
+}
+.nr-chip:hover{ transform: translateY(-1px); }
+
+/* Active chip */
+#nrvid1:checked ~ .nr-tabbar label[for="nrvid1"],
+#nrvid2:checked ~ .nr-tabbar label[for="nrvid2"]{
+  background: rgba(251,111,146,.18);
+  border-color: rgba(251,111,146,.40);
+  color: var(--earth-900);
+}
+
+/* Panels */
+.nr-panels{ position: relative; }
+.nr-panel{ display:none; }
+#nrvid1:checked ~ .nr-panels .nr-panel:nth-child(1){ display:block; }
+#nrvid2:checked ~ .nr-panels .nr-panel:nth-child(2){ display:block; }
+
+/* Figure/card */
+.nr-figure{
+  margin:0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255,255,255,.74);
+  border: 1px solid rgba(255,255,255,.65);
+  box-shadow: 0 14px 34px rgba(0,0,0,.09);
+}
+
+/* Frame : un vrai player “magazine” */
+.nr-frame{
+  position: relative;
+  background:#000;
+  aspect-ratio: 16 / 9;   /* toujours paysage => design cohérent */
+}
+
+/* Video covers the frame */
+.nr-video{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit: cover;      /* coupe propre, pas de bandes moches */
+  transform-origin: center;
+}
+
+/* ✅ Forcer un portrait à s’afficher en paysage (rotation 90° + crop clean) */
+.nr-video.nr-rot90{
+  /* on tourne en paysage + on scale un poil pour remplir le 16:9 */
+  transform: rotate(-90deg) scale(1.35);
+}
+
+/* Si besoin (vidéo tête en bas) : ajoute nr-flip180 en plus */
+.nr-video.nr-flip180{
+  transform: rotate(180deg);
+}
+.nr-video.nr-rot90.nr-flip180{
+  transform: rotate(270deg) scale(1.35);
+}
+
+/* Caption “glass” premium */
+.nr-caption{
+  margin:0;
+  padding:.58rem .8rem .68rem;
+  font-weight: 900;
+  font-size: .95rem;
+  color:#4A5759;
+  background: rgba(255,255,255,.70);
+  border-top: 1px solid rgba(255,255,255,.65);
+  backdrop-filter: blur(10px);
+}
+
+/* Mobile : lisible, pas trop haut */
+@media (max-width: 700px){
+  .nr-video-story{ padding: .9rem; }
+  .nr-story-head{ flex-direction: column; align-items:flex-start; }
+}
+
+/* Dark mode */
+body.quarto-dark .nr-video-story{
+  background: linear-gradient(135deg, rgba(251,111,146,.10), rgba(163,163,128,.08));
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 20px 52px rgba(0,0,0,.45);
+}
+body.quarto-dark .nr-story-badge{
+  background: rgba(43,47,49,.62);
+  border-color: rgba(255,255,255,.12);
+  color:#E8ECEE;
+}
+body.quarto-dark .nr-story-title{ color:#ffffff; }
+body.quarto-dark .nr-chip{
+  background: rgba(43,47,49,.52);
+  border-color: rgba(255,255,255,.12);
+  color: rgba(232,236,238,.90);
+}
+body.quarto-dark #nrvid1:checked ~ .nr-tabbar label[for="nrvid1"],
+body.quarto-dark #nrvid2:checked ~ .nr-tabbar label[for="nrvid2"]{
+  background: rgba(251,111,146,.16);
+  border-color: rgba(255,255,255,.14);
+  color:#ffffff;
+}
+body.quarto-dark .nr-figure{
+  background: rgba(43,47,49,.68);
+  border-color: rgba(255,255,255,.10);
+  box-shadow: 0 18px 46px rgba(0,0,0,.45);
+}
+body.quarto-dark .nr-caption{
+  background: rgba(43,47,49,.62);
+  border-top-color: rgba(255,255,255,.10);
+  color: rgba(232,236,238,.90);
+}
+
