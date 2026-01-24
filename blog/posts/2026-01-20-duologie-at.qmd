@@ -37,7 +37,7 @@ Je vous avais promis une toute nouvelle histoire et c’est chose faite. Cette f
 
 <!-- Bouton retour (mobile-friendly) -->
 <div class="back-home" style="margin-top:2rem;">
-  <a href="index.qmd" class="btn-back" role="button" aria-label="Retour à l’accueil">
+  <a href="../../index.qmd" class="btn-back" role="button" aria-label="Retour à l’accueil">
     <span class="arrow">←</span> Retour à l’accueil
   </a>
 </div>
