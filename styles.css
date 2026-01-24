@@ -1434,3 +1434,172 @@ body.quarto-dark.blog-home .quarto-title-block .quarto-title-banner{
   background-image: url("../images/hero-blog-dark.svg") !important;
 }
 
+/* =========================================================
+   COEURS TRÈS VISIBLES (rose + vert) UNIQUEMENT DANS LES CARDS
+   ========================================================= */
+
+.actu-card{
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Ajuste ici le rose et le vert si besoin */
+.actu-card.hearts{
+  --heart-pink: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23ff4fa3' d='M32 54s-18-11.3-24-22.6C3.7 23.5 7.7 16 15.4 15.4c4-.3 7.7 1.8 9.7 5.2 2-3.4 5.7-5.5 9.7-5.2C42.3 16 46.3 23.5 56 31.4 50 42.7 32 54 32 54z'/%3E%3C/svg%3E");
+  --heart-green: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%236b8f7a' d='M32 54s-18-11.3-24-22.6C3.7 23.5 7.7 16 15.4 15.4c4-.3 7.7 1.8 9.7 5.2 2-3.4 5.7-5.5 9.7-5.2C42.3 16 46.3 23.5 56 31.4 50 42.7 32 54 32 54z'/%3E%3C/svg%3E");
+}
+
+/* Base commune des coeurs */
+.actu-card.hearts::before,
+.actu-card.hearts::after{
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0.32;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.10));
+}
+
+/* COEUR 1 : rose (haut gauche) — TRÈS GRAND */
+.actu-card.hearts::before{
+  width: 52px; height: 52px;
+  top: 14px; left: 14px;
+  background-image: var(--heart-pink);
+  transform: rotate(-14deg);
+}
+
+/* COEUR 2 : vert (bas droit) — GRAND */
+.actu-card.hearts::after{
+  width: 44px; height: 44px;
+  bottom: 14px; right: 14px;
+  background-image: var(--heart-green);
+  transform: rotate(12deg);
+  opacity: 0.26;
+}
+
+/* On ancre d'autres coeurs sur des zones internes */
+.actu-card.hearts .callout-title-container,
+.actu-card.hearts .callout-body{
+  position: relative;
+}
+
+/* COEUR 3 : rose (près du titre, côté droit) — GRAND */
+.actu-card.hearts .callout-title-container::before{
+  content: "";
+  position: absolute;
+  width: 46px; height: 46px;
+  top: -10px; left: 68%;
+  background-image: var(--heart-pink);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.20;
+  transform: rotate(-24deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+/* COEUR 4 : vert (dans le texte, côté gauche) — MOYEN/GRAND */
+.actu-card.hearts .callout-title-container::after{
+  content: "";
+  position: absolute;
+  width: 34px; height: 34px;
+  top: 54px; left: 6%;
+  background-image: var(--heart-green);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  transform: rotate(10deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+/* COEUR 5 : rose (près du bouton) — GRAND
+   (supprime ce bloc si tu n'en veux que 4) */
+.actu-card.hearts .callout-body::after{
+  content: "";
+  position: absolute;
+  width: 40px; height: 40px;
+  bottom: 6px; right: 34%;
+  background-image: var(--heart-pink);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  transform: rotate(-10deg);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.08));
+}
+
+
+/* ====== ACTUS : mêmes hauteurs + titres plus grands ====== */
+
+/* Chaque colonne devient un conteneur flex pour étirer la card */
+.actus-grid > .g-col-12{
+  display: flex;
+}
+
+/* La card prend toute la hauteur disponible */
+.actus-grid .actu-card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Le corps du callout s'étire pour pousser les boutons en bas */
+.actus-grid .actu-card .callout-body{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Boutons en bas, alignés, avec retour à la ligne si besoin */
+.actus-grid .actu-card .callout-body p:last-child{
+  margin-top: auto;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+/* Titres plus grands (et un peu plus “hero”) */
+.actus-grid .actu-card .callout-title-container{
+  font-size: 1.45rem;     /* augmente la taille du titre */
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+/* Un peu d'air entre titre et texte */
+.actus-grid .actu-card .callout-title-container + .callout-body{
+  padding-top: 0.35rem;
+}
+
+
+/* Force l’accent rose sur une callout, même si le thème change */
+.pink-accent{
+  border-left: 6px solid #ff4fa3 !important; /* rose */
+}
+
+/* Évite que Quarto applique des couleurs type warning */
+.pink-accent.callout{
+  --callout-color: #ff4fa3;
+}
+
+
+/* Enlève la bordure grise des callouts (cards) */
+.actu-card{
+  border: none !important;
+}
+
+/* Certains thèmes mettent aussi une bordure sur l'élément interne */
+.actu-card.callout{
+  border: none !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08); /* garde un relief doux */
+}
+
+/* Enlève la ligne sous le titre "Actualités" uniquement */
+.actus-section h2{
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.75rem; /* garde un peu d'air */
+}

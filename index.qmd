@@ -20,6 +20,37 @@ body-classes: accueil
   <img src="images/banner-mo-gadarr.png" alt="Mogadarr — portrait illustré">
 </div>
 
+::: {.actus-section}
+
+## Actualités
+
+::: {.grid .actus-grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.callout-note appearance="minimal" .actu-card .hearts}
+### Black Feelings réimprimé
+Après des années, *Black Feelings* est à nouveau disponible à la demande ou en salon.
+
+[En savoir plus »](blog/posts/2026-03-01-reedition-black-feelings/){.btn .btn-primary}
+[Contact pour commander »](contact.qmd){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.callout-note appearance="minimal" .actu-card .hearts .pink-accent}
+### Une duologie à paraitre : AT
+Exclusivité salon Love story à Mons (Belgique) — 21–22 mars 2026.
+
+[Découvrir »](blog/posts/2026-03-01-duologie-at/){.btn .btn-primary}
+:::
+:::
+
+
+:::
+
+:::
+
+
 
 
 ::: hero
